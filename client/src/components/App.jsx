@@ -16,7 +16,7 @@ function App() {
       <Projects />
       <Stack />
       <Contact />
-      <div className="text-white m-4 flex flex-col items-end">
+      <div className="text-white m-4 flex flex-col items-center justify-center">
         <p>I am available for freelance projects.</p>
         <p>Contact me by any of the above means.</p>
       </div>
