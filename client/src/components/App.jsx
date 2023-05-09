@@ -4,7 +4,6 @@ import './App.css'
 
 // import Background from './background'
 import About from './About'
-import Intro from './Intro'
 import Projects from './Projects'
 import Stack from './Stack'
 import Contact from './Contact'
@@ -12,12 +11,15 @@ import Contact from './Contact'
 function App() {
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-black">
       <About />
-      <Intro />
       <Projects />
       <Stack />
       <Contact />
+      <div className="text-white m-4 flex flex-col items-end">
+        <p>I am available for freelance projects.</p>
+        <p>Contact me by any of the above means.</p>
+      </div>
     </div>
   )
 }
