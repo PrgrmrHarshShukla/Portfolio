@@ -43,7 +43,7 @@ function About() {
             <p>I am a CSE undergraduate, with a passion</p>
             <p>for building things that have </p>
             <p>actual real world utility.</p>
-            <p className="mt-4 text-2xl font-bold text-sky-200 hover:text-white">Do checkout my</p>
+            <p className="mt-4 text-2xl font-bold text-white">Do checkout my</p>
             <p className="hover:text-sky-200 font-bold">
                <a href="https://github.com/PrgrmrHarshShukla" target="_blank" rel="noopener" alt="GitHub">
                   Open Source Contributions
@@ -52,7 +52,7 @@ function About() {
          </div>
 
 
-         <div className={`h-1/4 flex flex-col justify-end items-start text-red-200 hover:text-red-700 font-bold font-serif text-3xl  transition-all lg:items-center lg:text-center ${
+         <div className={`h-1/4 flex flex-col justify-end items-start text-red-500 hover:text-red-700 font-bold font-serif text-3xl  transition-all lg:items-center lg:text-center ${
          show ? "transform translate-x-0 ease-in-out transition duration-1000" : "transform translate-y-full"
          }`}>
             <h3>Hopefully I can help you.</h3>

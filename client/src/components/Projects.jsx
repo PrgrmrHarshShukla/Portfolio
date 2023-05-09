@@ -2,7 +2,7 @@
 
 function Projects() {
   return (
-    <div id="projects" className="border-t-2 border-b-2 border-white rounded-tl-[200px] rounded-br-[200px] w-screen px-8 pb-16 flex flex-col pt-[100px] mt-8 sm:flex-row">
+    <div id="projects" className="border-2 border-white rounded-tl-[200px] rounded-br-[200px] w-screen px-8 pb-16 flex flex-col pt-[100px] mt-8 sm:flex-row">
 
         <div className="sm:w-1/3 w-5/6 py-[100px] gap-16 text-center flex sm:flex-col flex-row items-center sm:justify-between text-2xl text-white">
           <p className="font-semibold">Built in Public</p>
@@ -37,7 +37,7 @@ function Projects() {
                 <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-[5px] px-1" target="_blank" rel="noopener" href="https://github.com/PrgrmrHarshShukla/FireChat">GitHub</a>
               </div>
             </div>
-            <p className="text-lg lg:max-w-[500px]">This is a real-time caht app. I made this using ReactJS, TailwindCSS and Socket.io.</p>
+            <p className="text-lg lg:max-w-[500px]">This is a real-time chat app. I made this using ReactJS, TailwindCSS and Socket.io.</p>
           </div>
 
 
