@@ -15,7 +15,7 @@ function About() {
       <div className="flex flex-col dark:border-white border-black w-screen h-screen pl-4 rounded-br-[200px] border-b-2 pb-8">
 
          <div className="h-1/6 flex flex-row justify-end items-center text-white pr-20">
-            <p className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-[5px] p-1 text-black">
+            <p className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black">
                Building in Public
             </p>
          </div>
