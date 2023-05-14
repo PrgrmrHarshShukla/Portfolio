@@ -2,7 +2,7 @@
 
 function Projects() {
   return (
-    <div id="projects" className="border-2 border-black dark:border-white rounded-tl-[200px] rounded-br-[200px] w-screen px-8 pb-16 flex flex-col pt-[100px] mt-8 sm:flex-row">
+    <div id="projects" className="w-screen px-8 pb-16 flex flex-col pt-[100px] sm:flex-row">
 
         <div className="sm:w-1/3 w-5/6 py-[100px] gap-16 text-center flex sm:flex-col flex-row items-center sm:justify-between text-2xl text-black dark:text-white">
           <p className="font-semibold">Built in Public</p>
@@ -20,7 +20,7 @@ function Projects() {
             <div className="flex flex-row justify-between">
               <strong className="text-2xl"><u>S-Mart</u></strong>
               <div className="flex flex-row gap-4 justify-center items-center text-black">
-                <a className="border-2 border-blac bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://s-mart-e-commerce.netlify.app/">Live</a>
+                <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://s-mart-e-commerce.netlify.app/">Live</a>
                 <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://github.com/PrgrmrHarshShukla/S-Mart">GitHub</a>
               </div>
             </div>

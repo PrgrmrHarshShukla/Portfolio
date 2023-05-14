@@ -12,7 +12,7 @@ function About() {
 
 
    return (
-      <div className="flex flex-col dark:border-white border-black w-screen h-screen pl-4 rounded-br-[200px] border-b-2 pb-8">
+      <div className="flex flex-col dark:border-white border-black w-screen h-screen pl-4 border-b-2">
 
          <div className="h-1/6 flex flex-row justify-end items-center text-white pr-20">
             <p className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black">
@@ -37,7 +37,7 @@ function About() {
          </div>
 
          
-         <div className={`h-1/4 flex flex-col justify-center items-start text-left dark:text-white text-black text-xl lg:items-center lg:text-left ${
+         <div className={`h-1/3 flex flex-col justify-center items-start text-left dark:text-white text-black text-xl lg:items-center lg:text-left ${
          show ? "transform translate-x-0 transition ease-in duration-1000" : "transform translate-x-full"
          }`}>
             <p>I am a CSE undergraduate, with a passion</p>
@@ -51,12 +51,12 @@ function About() {
             </p>            
          </div>
 
-
+{/* 
          <div className={`h-1/4 flex flex-col justify-end items-start text-red-500 hover:text-red-700 font-bold font-serif text-3xl  transition-all lg:items-center lg:text-center ${
          show ? "transform translate-x-0 ease-in-out transition duration-1000" : "transform translate-y-full"
          }`}>
             <h3>Hopefully I can help you.</h3>
-         </div>
+         </div> */}
       </div>
     )
 }

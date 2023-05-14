@@ -8,7 +8,7 @@ function Stack() {
          <p>Skills</p>
       </div>
 
-      <div className="sm:w-2/3 sm:max-w-[500px] text-black dark:text-white flex flex-col justify-around gap-8 sm:gap-0">
+      <div className="sm:w-2/3 sm:max-w-[500px] text-black dark:text-white flex flex-col justify-around gap-8 sm:gap-0 text-lg">
         <div>
             JavaScript, React, TailwindCSS, Accessible & Semantic HTML, Prettier, EsLint, Terminal, Version Control
         </div>    
