@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 function Contact() {
   return (
-    <div className="border-2  border-black dark:border-white rounded-tl-[200px] rounded-br-[200px] w-screen flex flex-col justify-center items-center p-8 mt-8 pt-16 text-white pl-[100px] pr-[100px]" title="Contact Me">
+    <div className="border-2  border-black dark:border-white rounded-tl-[200px] rounded-tr-[200px] rounded-br-[200px] rounded-bl-[200px] w-screen flex flex-col justify-center items-center p-8 text-white pl-[100px] pr-[100px]" title="Contact Me">
 
 
       <form  action = "https://formspree.io/f/xpzeyyae" method = "post" className="flex flex-col gap-4 lg:w-1/2 h-1/2"> 
