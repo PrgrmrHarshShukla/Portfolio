@@ -43,9 +43,9 @@ function About() {
             <p>I am a CSE undergraduate, with a passion</p>
             <p>for building things that have </p>
             <p>actual real world utility.</p>
-            <p className="mt-4 text-2xl">Do checkout my</p>
-            <p className="hover:text-sky-700 dark:hover:text-sky-200 hover:cursor-pointer font-semibold hover:border-b-2 hover:border-black dark:hover:border-white">
-               <a href="https://github.com/PrgrmrHarshShukla" target="_blank" rel="noopener" alt="GitHub">
+            <p className="mt-4 text-2xl mb-2">Do checkout my</p>
+            <p className="hover:cursor-pointer font-semibold lg:border-2 lg:rounded-full lg:px-8 border-black dark:border-white hover:bg-gradient-to-bl from-white to-yellow-500 hover:text-black">
+               <a href="https://github.com/PrgrmrHarshShukla" target="_blank" rel="noopener">
                   Open Source Contributions
                </a>
             </p>            

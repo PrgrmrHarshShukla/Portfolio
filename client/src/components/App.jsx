@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div className="overflow-x-hidden dark:bg-gray-800 bg-emerald-100">
+    <div className="overflow-x-hidden dark:bg-gray-800 bg-lime-50">
       <About />
       <Projects />
       <Stack />

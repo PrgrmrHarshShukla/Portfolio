@@ -40,6 +40,21 @@ function Projects() {
             <p className="text-lg lg:max-w-[500px]">This is a real-time chat app. I made this using ReactJS, TailwindCSS and Socket.io.</p>
           </div>
 
+          
+          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+
+          <div className="text-left p-2 flex flex-col justify-between gap-8">            
+            <div className="flex flex-row justify-between">
+              <strong className="text-2xl"><u>Contest Tracker</u></strong>
+              <div className="flex flex-row gap-4 justify-center items-center text-black">
+                <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://upcoming-coding-contests.netlify.app/">Live</a>
+                <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://github.com/PrgrmrHarshShukla/Upcoming-Coding-Contests">GitHub</a>
+              </div>
+            </div>
+            <p className="text-lg lg:max-w-[500px]">This website gives a list of the upcoming coding contests, alongwith the date, starting time and organising site url.</p>
+          </div>
+
+
 
           <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
 
@@ -65,7 +80,7 @@ function Projects() {
                 <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full px-4" target="_blank" rel="noopener" href="https://github.com/PrgrmrHarshShukla/Tic-Tac-Toe-Game">GitHub</a>
               </div>
             </div>
-            <p className="text-lg lg:max-w-[500px]">This is the legacy Tic-Tac-Toe Game. I made it using ReactJS. Good way to get the initial understanding of ReactJS.</p>
+            <p className="text-lg lg:max-w-[500px]">This is the legacy Tic-Tac-Toe Game. I made it using the basic concepts of ReactJS.</p>
           </div>
 
 
