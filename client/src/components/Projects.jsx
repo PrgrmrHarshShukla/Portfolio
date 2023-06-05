@@ -1,10 +1,10 @@
 // import React from 'react'
 
-function Projects() {
+function Projects(props) {
   return (
     <div id="projects" className="w-screen px-8 pb-16 flex flex-col pt-[100px] sm:flex-row">
 
-        <div className="sm:w-1/3 w-5/6 py-[100px] gap-16 text-center flex sm:flex-col flex-row items-center sm:justify-between text-2xl text-black dark:text-white">
+        <div className={`sm:w-1/3 w-5/6 py-[100px] gap-16 text-center flex sm:flex-col flex-row items-center sm:justify-between text-2xl ${props.isDark ? "text-white " : "text-black "}`}>
           <p className="font-semibold">Built in Public</p>
           {/* <div className="flex flex-col gap-4 justify-center items-center text-center text-xl">
             <i className="fas fa-book"></i>
@@ -12,9 +12,9 @@ function Projects() {
           </div> */}
         </div>
 
-        <div className="sm:w-2/3 w-screen lg:w-1/2 min-h-screen py-[100px] flex flex-col justify-around gap-8 lg:items-start items-center text-black dark:text-white pr-16">
+        <div className={`sm:w-2/3 w-screen lg:w-1/2 min-h-screen py-[100px] flex flex-col justify-around gap-8 lg:items-start items-center ${props.isDark ?  "text-white " : "text-black "} pr-16`}>
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -28,7 +28,7 @@ function Projects() {
           </div>
 
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -41,7 +41,7 @@ function Projects() {
           </div>
 
           
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -56,7 +56,7 @@ function Projects() {
 
 
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -70,7 +70,7 @@ function Projects() {
           </div>
 
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -84,7 +84,7 @@ function Projects() {
           </div>
 
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           <div className="text-left p-2 flex flex-col justify-between gap-8">            
             <div className="flex flex-row justify-between">
@@ -98,7 +98,7 @@ function Projects() {
           </div>
 
 
-          <hr className="border-1 opacity-30 border-black dark:border-white w-full" />
+          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
               
         </div>

@@ -3,24 +3,24 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 
 
-function Contact() {
+function Contact(props) {
   return (
-    <div className="border-t-2  border-black dark:border-white  w-screen flex flex-col justify-center items-center p-8 text-white pl-[100px] pr-[100px]" title="Contact Me">
+    <div className={`border-t-2  ${props.isDark ? "border-white " : "border-black "}  w-screen flex flex-col justify-center items-center p-8 text-white pl-[100px] pr-[100px]`} title="Contact Me">
 
 
       <form  action = "https://formspree.io/f/xpzeyyae" method = "post" className="flex flex-col gap-4 lg:w-1/2 h-1/2"> 
-         <label htmlFor = "mail" className="flex flex-row items-center text-black dark:text-white">
+         <label htmlFor = "mail" className={`flex flex-row items-center ${props.isDark ? "text-white " : "text-black "}`}>
           Enter your email-id: <input type = "email" name = "email-id" id = "mail" className="text-black border-black border-2 ml-4 p-1 text-lg rounded-[5px]" />
          </label>
 
          <textarea className="text-black p-2 border-black border-2 rounded-[5px]" placeholder = "Enter your message here....." name = "message" id = "message"></textarea>
 
          <div className="flex justify-center items-center">
-          <input type="submit" value = "SEND" name="submit" id="send-button" className="dark:bg-white bg-sky-400 text-black hover:bg-sky-600 px-4 text-lg rounded-[5px] active:p-0" />
+          <input type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-white " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 text-lg rounded-[5px] border-2 border-black font-semibold active:p-0`} />
          </div>         
       </form> 
 
-      <div className="flex flex-row flex-wrap justify-center items-center gap-8 mt-20 text-3xl text-black dark:text-white">
+      <div className={`flex flex-row flex-wrap justify-center items-center gap-8 mt-20 text-3xl ${props.isDark ? "text-white " : "text-black "}`}>
          <a target = "_blank" href = "https://twitter.com/PrgrmrShukla">
           <i class = "fab fa-twitter-square"></i>
          </a>
