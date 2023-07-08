@@ -23,7 +23,7 @@ function App() {
       <Projects isDark={isDark} />
       <Stack isDark={isDark} />
       <Contact isDark={isDark} />
-      <div className={`${isDark ? "text-white " : "text-black "} m-4 flex flex-col items-center justify-center`}>
+      <div className={`${isDark ? "text-white " : "text-black "} text-[15px] sm:text-lg m-4 flex flex-col items-center justify-center`}>
         <p>I am available for freelance projects.</p>
         <p>Contact me by any of the above means.</p>
       </div>
