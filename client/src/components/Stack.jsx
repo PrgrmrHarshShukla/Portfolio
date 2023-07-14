@@ -8,12 +8,12 @@ function Stack(props) {
          <p>Skill set</p>
       </div>
 
-      <div className={`sm:w-2/3 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-16 text-[15px] sm:text-lg`}>
+      <div className={`sm:w-2/3 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-12 text-[15px] sm:text-lg`}>
         <p>
           React, JavaScript, Firebase<i> (Backend as a service)</i>, TailwindCSS, Semantic HTML, CSS, Prettier, EsLint, Terminal, Version Control
         </p>    
         <p>
-          On my soft side, I am a responsible-careful-creative-strong-willed-detail-oriented-optimistic-ever-learning-and-polite, hard-working person. 
+          On my soft side, I am a responsible-careful-creative-strong-willed-detail-oriented-optimistic-ever-learning-polite and hard-working person. 
         </p> 
                      
       </div>
