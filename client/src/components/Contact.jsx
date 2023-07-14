@@ -23,16 +23,16 @@ function Contact(props) {
          </div>         
       </form> 
 
-      <div className={`flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 mt-20 text-3xl ${props.isDark ? "text-white " : "text-black "}`}>
-         <a target = "_blank" rel="noreferrer" href = "https://twitter.com/PrgrmrShukla">
+      <div title="Do checkout my OPEN SOURCE CONTRIBUTIONS!" className={`flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 mt-20 text-3xl ${props.isDark ? "text-white " : "text-black "}`}>
+         <a title="" target = "_blank" rel="noreferrer" href = "https://twitter.com/PrgrmrShukla">
           <i className = "fab fa-twitter-square"></i>
          </a>
          
-         <a target = "_blank" rel="noreferrer" href = "https://github.com/PrgrmrHarshShukla">
+         <a title="Do checkout my OPEN SOURCE CONTRIBUTIONS!" target = "_blank" rel="noreferrer" href = "https://github.com/PrgrmrHarshShukla">
           <i className = "fab fa-github-square"></i>
          </a>
          
-         <a target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-shukla-274277255">
+         <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-shukla-274277255">
           <i className = "fab fa-linkedin"></i>
          </a>
       </div>

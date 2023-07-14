@@ -7,6 +7,7 @@ import Projects from './Projects'
 import Stack from './Stack'
 import Contact from './Contact'
 import { useState } from 'react'
+import Experience from './Experience'
 
 function App() {
   const [isDark, setIsDark] = useState(true)
@@ -22,6 +23,7 @@ function App() {
       <About isDark={isDark} toggle={toggle} />
       <Projects isDark={isDark} />
       <Stack isDark={isDark} />
+      <Experience isDark={isDark} />
       <Contact isDark={isDark} />
       <div className={`${isDark ? "text-white " : "text-black "} text-[15px] sm:text-lg m-4 flex flex-col items-center justify-center`}>
         <p>I am available for freelance projects.</p>
