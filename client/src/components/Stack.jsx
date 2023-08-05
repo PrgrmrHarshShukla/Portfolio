@@ -2,7 +2,7 @@
 
 function Stack(props) {
   return (
-    <div className="min-h-[500px] sm:min-h-[370px] w-screen px-8  flex flex-col sm:flex-row pb-[100px]">
+    <div className="min-h-[500px] sm:min-h-[370px] w-screen px-8 flex flex-col sm:flex-row pb-[100px]">
 
       <div className={`min-h-[100px] sm:h-auto sm:w-1/3 text-3xl flex flex-row justify-center items-start ${props.isDark ? "text-white " : "text-black "} font-semibold`}>
          <p>Skill set</p>
