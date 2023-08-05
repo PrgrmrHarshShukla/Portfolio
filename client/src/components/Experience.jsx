@@ -9,15 +9,18 @@ function Experience(props) {
        </div>
  
        <div className={`sm:w-2/3 sm:gap-12 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-around gap-8 sm:gap-12 text-[15px] sm:text-lg`}>
-         <p>
-           ⭐ Did freelancing remotely for a few months, worked on client projects, and learned a lot of things.
-         </p>    
-         <p>
-           ⭐ Currently, I am working remotely on contract basis for a freelancing firm and learning new things.
-         </p>              
-         <p>
-           ⭐ Making contributions to amazing open source projects.
-         </p>              
+         <div className="flex flex-row gap-2">
+           <div className="">⭐</div>
+           <div>Did freelancing remotely for a few months, worked on client projects, and learned a lot of things.</div>
+         </div>    
+         <div className="flex flex-row gap-2">
+           <div className="">⭐</div>
+           <div>Worked remotely on contract basis for a freelancing firm and learned a lot of new things.</div>
+         </div>              
+         <div className="flex flex-row gap-2">
+           <div className="">⭐</div>
+           <div>Making contributions to amazing Open Source codebases.</div>
+         </div>              
                    
        </div>
  
