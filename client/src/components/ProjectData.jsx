@@ -6,10 +6,10 @@ export default [
       desc: "This web app has full fledged e-commerce functionality. I made it using ReactJS & TailwindCSS, firebase authentication, etc.",
    },
    {
-      name: "FireChat",
-      live: "https://s-mart-e-commerce.netlify.app/",
-      repo: "https://github.com/PrgrmrHarshShukla/FireChat",
-      desc: "This is a real-time chat app. I made this using ReactJS, TailwindCSS and Socket.io.",
+      name: "Fintrrack",
+      live: "https://fintrrack.netlify.app/",
+      repo: "https://github.com/PrgrmrHarshShukla/Fintrack",
+      desc: "This is a fully responsive clone of a static landing page.",
    },
    {
       name: "Tracker",
@@ -21,7 +21,7 @@ export default [
       name: "Tic-Tac-Toe",
       live: "https://legacy-tic-tac-toe-web-app.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Tic-Tac-Toe-Game",
-      desc: "This is the legacy Tic-Tac-Toe Game. I made it using the basic concepts of ReactJS.",
+      desc: "This is the legacy Tic-Tac-Toe Game, made using the basic concepts of ReactJS.",
    },
    {
       name: "Timer",
