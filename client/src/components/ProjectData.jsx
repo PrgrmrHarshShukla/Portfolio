@@ -9,7 +9,7 @@ export default [
       name: "Fintrrack",
       live: "https://fintrrack.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Fintrack",
-      desc: "This is a fully responsive clone of a static landing page.",
+      desc: "This is a fully responsive clone of a static landing page that is made by following the design best practices.",
    },
    {
       name: "Tracker",
