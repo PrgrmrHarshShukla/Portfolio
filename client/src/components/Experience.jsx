@@ -11,7 +11,7 @@ function Experience(props) {
        <div className={`sm:w-2/3 sm:gap-12 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-around gap-8 sm:gap-12 text-[15px] sm:text-lg`}>
          <div className="flex flex-row gap-2">
            <div className="">⭐</div>
-           <div>Did freelancing remotely for a few months, worked on client projects, and learned a lot of things.</div>
+           <div>Doing freelancing remotely, working on client projects, and learning a lot of cool things.</div>
          </div>    
          <div className="flex flex-row gap-2">
            <div className="">⭐</div>
