@@ -18,10 +18,10 @@ export default [
       desc: "This website gives a list of the upcoming coding contests, alongwith the date, starting time and organising site url.",
    },
    {
-      name: "Tic-Tac-Toe",
-      live: "https://legacy-tic-tac-toe-web-app.netlify.app/",
-      repo: "https://github.com/PrgrmrHarshShukla/Tic-Tac-Toe-Game",
-      desc: "This is the legacy Tic-Tac-Toe Game, made using the basic concepts of ReactJS.",
+      name: "Drag-n-Drop",
+      live: "https://draganddropnums.netlify.app/",
+      repo: "https://github.com/PrgrmrHarshShukla/Bytelearn-Internship-Assignment",
+      desc: "This is a fun game for arranging numbers made using the DRAG and DROP APIs of HTML, React and TailwindCSS.",
    },
    {
       name: "Timer",
