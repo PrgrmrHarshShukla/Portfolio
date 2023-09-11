@@ -6,10 +6,16 @@ export default [
       desc: "This web app has full fledged e-commerce functionality. I made it using ReactJS & TailwindCSS, firebase authentication, etc.",
    },
    {
+      name: "FireChat",
+      live: "https://fired-chat.netlify.app/",
+      repo: "https://github.com/PrgrmrHarshShukla/Vchat",
+      desc: "This is a real time chat app. It's Front-end is made using React and TailwindCSS. It's backend is a Web Socket server made using Socket.io",
+   },
+   {
       name: "Fintrrack",
       live: "https://fintrrack.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Fintrack",
-      desc: "This is a fully responsive clone of a static landing page that is made by following the design best practices.",
+      desc: "This is a fully responsive design clone of a static landing page that is made by following the design best practices.",
    },
    {
       name: "Tracker",
