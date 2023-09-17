@@ -17,7 +17,7 @@ function Experience(props) {
             <p>I was the only developer working on the project.</p>
             <p>I completed the project end-to-end and delivered it in time.</p>
             <br />
-            <p className="font-semibold"><u>Things I learned and did in the project:</u></p>
+            <p className="font-semibold"><u>Things I tackled during the project:</u></p>
             <ul>
               <li>→ Working of Firebase Authentication,</li>
               <li>→ Working of Firebase Storage,</li>
@@ -33,7 +33,7 @@ function Experience(props) {
            <div>
             <p>Making regular contributions to amazing Open Source codebases, like, <a href="https://github.com/MetaMask/metamask-extension"><u>Metamask</u></a>, where more than <u><a href="https://github.com/PrgrmrHarshShukla">30 PRs</a></u> made by me have been merged till now.</p>
             <br />
-            <p className="font-semibold"><u>Things I am learning and doing through these:</u></p>
+            <p className="font-semibold"><u>Things I am learning and doing through these PRs:</u></p>
             <p>→ In the repository I have replaced a lot of old (deprecated) components in the code with new components.</p>
             <p>→ This requires me to update or change the component API(s) as and when required.</p>
             <p>→ I need to update the snapshots for changes in a file.</p>

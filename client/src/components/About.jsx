@@ -35,15 +35,15 @@ function About(props) {
             <div className={`flex flex-col gap-4 ${
             show ? "transform translate-x-0 transition ease-in duration-1000" : "transform translate-x-full"
             }`}>
-               <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl hover:text-red-400  transition-all duration-1000 ease-in-out`}>Hello,</h1>
+               <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl hover:text-yellow-600  transition-all duration-1000 ease-in-out`}>Hello,</h1>
                <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-2xl sm:text-5xl font-serif`}>
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-75">My</span>
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-500"> name</span>
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-500"> is </span>
                   <span className="hover:text-sky-700 dark:hover:text-sky-300 transition-all duration-500 font-semibold">Harsh Shukla</span>
                </h1>
-               <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl font-semibold font-serif hover:ml-8 hover:text-red-600 transition-all duration-500`}>
-                  Front-End Developer
+               <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl font-semibold font-serif hover:ml-8 hover:text-yellow-600 transition-all duration-500`}>
+                  Full Stack Developer ( MERN Stack )
                </h1>
             </div>
          </div>

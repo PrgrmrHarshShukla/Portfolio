@@ -1,10 +1,35 @@
+import { useNavigate } from 'react-router-dom';
 import data from './ProjectData';
 import ProjectTemplate from './ProjectTemplate';
 
 
 function Projects(props) {
 
-  // console.log(data)
+  // const navigate = useNavigate()
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    
+
+  }
+
+
+  const projects = data.map((project, index) => {
+    return(<>
+      <ProjectTemplate 
+        key={index}
+        index={index}
+        onClick={handleClick}
+        isDark={props.isDark} 
+        name={data[index].name}
+        live={data[index].live}
+        repo={data[index].repo}
+        desc={data[index].desc}
+      />
+      <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
+      </>
+    )
+  })
 
 
   return (
@@ -18,62 +43,7 @@ function Projects(props) {
 
           <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
-          <ProjectTemplate
-            isDark={props.isDark} 
-            name={data[0].name}
-            live={data[0].live}
-            repo={data[0].repo}
-            desc={data[0].desc}
-          />
-
-
-          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-
-          <ProjectTemplate
-            isDark={props.isDark} 
-            name={data[1].name}
-            live={data[1].live}
-            repo={data[1].repo}
-            desc={data[1].desc}
-          />
-
-          
-          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-
-          <ProjectTemplate
-            isDark={props.isDark} 
-            name={data[2].name}
-            live={data[2].live}
-            repo={data[2].repo}
-            desc={data[2].desc}
-          />
-
-
-
-
-          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-
-          <ProjectTemplate
-            isDark={props.isDark} 
-            name={data[3].name}
-            live={data[3].live}
-            repo={data[3].repo}
-            desc={data[3].desc}
-          />
-
-
-          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-
-          <ProjectTemplate
-            isDark={props.isDark} 
-            name={data[4].name}
-            live={data[4].live}
-            repo={data[4].repo}
-            desc={data[4].desc}
-          />
-
-          <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-
+          {projects}          
               
         </div>
     </div>

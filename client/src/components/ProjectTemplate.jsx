@@ -1,5 +1,16 @@
+import { useNavigate } from 'react-router-dom'
 
-function ProjectTemplate({name, live, repo, desc}) {
+
+function ProjectTemplate({name, live, repo, desc, index}) {
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    localStorage.setItem('portfolio_project-index', JSON.stringify(index))
+    navigate('/projectDescription')
+  }
+
+
+
   return (
     <div>
 
@@ -12,6 +23,11 @@ function ProjectTemplate({name, live, repo, desc}) {
               </div>
             </div>
             <p className="text-[15px] sm:text-lg lg:max-w-[500px]">{desc}</p>
+            <div onClick={handleClick} className="cursor-pointer hover:text-purple-400">
+              <span>
+              <u>Detailed Description</u>
+              </span>
+            </div>
         </div>
 
 
