@@ -1,6 +1,6 @@
 export default [
    {
-      name: "FireChat",
+      name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Vchat",
       desc: "This is a real time chat app. It's front-end is made using React and TailwindCSS. It's backend is a Web Socket server made using Socket.io",
