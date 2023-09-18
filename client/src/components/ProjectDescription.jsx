@@ -11,8 +11,10 @@ function ProjectDescription() {
 
     const detailsList = details.map((item, index) => {
         return(
-            <li key={index} className="flex flex-row items-center justify-start gap-[10px]">
-                <span className="text-2xl">•</span>
+            <li key={index} className="flex flex-row items-start justify-start gap-[10px]">
+                <div className="flex flex-row justify-start items-start -mt-[3px]">
+                    <span className="text-2xl">•</span>
+                </div>
                 {item}
             </li>
         )
@@ -22,7 +24,7 @@ function ProjectDescription() {
 
     
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center bg-slate-400">
+    <div className="w-screen h-auto flex flex-col justify-center items-center bg-slate-400">
 
         <div className="max-w-[550px] w-[100vw] h-auto min-h-screen bg-sky-100 py-[2vh] sm:px-[1vw] px-[2vw]">
             <span className="text-left font-bold text-4xl sm:text-6xl">{name}</span>
@@ -42,7 +44,7 @@ function ProjectDescription() {
                         Things I tackled during the project:
                     </u>
                 </span>
-                <ul  className="mt-[2vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px]">
+                <ul  className="mt-[2vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px] flex flex-col gap-[1vh]">
                     {detailsList}
                 </ul>
             </div>
