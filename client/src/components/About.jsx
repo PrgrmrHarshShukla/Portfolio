@@ -37,13 +37,12 @@ function About(props) {
             }`}>
                <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl hover:text-yellow-600  transition-all duration-1000 ease-in-out`}>Hello there,</h1>
                <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-2xl sm:text-5xl font-serif`}>
-                  {/* <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-75">My</span> */}
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-500"> This</span>
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-500"> is </span>
                   <span className="hover:text-sky-700 dark:hover:text-sky-300 transition-all duration-500 font-semibold">Harsh Shukla</span>
                </h1>
                <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl font-semibold font-serif hover:ml-8 hover:text-yellow-600 transition-all duration-500`}>
-                  Full Stack Developer ( MERN Stack )
+                  Full Stack (MERN) Developer
                </h1>
             </div>
          </div>
