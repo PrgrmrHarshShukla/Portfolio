@@ -30,8 +30,20 @@ export default [
          'In this project I used a lot of concepts of ReactJS, that helped me have a solid grasp on the concepts,',
          'Utilised the awesome Firebase features: Authentication, Firestore (cloud database) and Storage bucket,',
          'Implemented Redux for maintaining the data layer on the front-end,',
-         'Set up Stripe for payment integration, although you would not get your product delivered even if you pay for it 😄 simply because they do not exist,',
-         // '',
+         'Set up Stripe for payment integration, although you would not get your product delivered even if you pay for it 😄 simply because they do not exist!',
+      ]
+   },
+   {
+      name: "DSA Sheeter",
+      live: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
+      repo: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
+      desc: "I decided to focus more on DSA. So, to keep track of the Leetcode questions I solve, I made this browser extension.",
+      details: [
+         'This is a browser extension.',
+         "I thought of making this to keep track of the DSA questions I solve in the process of learning DSA.",
+         "It has a very minimal UI.",
+         "It just has a simple button to add the current question name and its link that helps you to access them whenever you want.",
+         "You will find a pic of its UI on GitHub README, as it has not yet been published to Chrome Web Store."
       ]
    },
    {
@@ -57,16 +69,6 @@ export default [
          'This was a nice exercise to brush up API handling, actually this was the first time I properly learned about getting data from APIs,', 'It was real fun to see the data being logged to the console (through a console.log()) and then storing it for future use by utilising the powers of async/await',
       ]
    },
-   // {
-   //    name: "Drag-n-Drop",
-   //    live: "https://draganddropnums.netlify.app/",
-   //    repo: "https://github.com/PrgrmrHarshShukla/Bytelearn-Internship-Assignment",
-   //    desc: "This is a fun game for arranging numbers made using the DRAG and DROP APIs of HTML, React and TailwindCSS.",
-   //    details: [
-   //       'hello 1',
-   //       "hello hello 2"
-   //    ]
-   // },
    {
       name: "Timer",
       live: "https://count-down-timer-web-app.netlify.app/",
