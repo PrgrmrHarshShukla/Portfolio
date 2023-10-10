@@ -1,22 +1,41 @@
 // import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.css'
+import { useState } from 'react';
 
-const mail = "Email ID"
 
 function Contact(props) {
+
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const mail = "Email ID"
+
+  const handle = (e) => {
+    e.preventDefault();
+    setTimeout(() => {
+      if(email !== '' && message !== ''){
+        alert("Your message has been sent.");
+      }
+      else{
+        alert("Please fill in the fields to send a message.");
+      }
+    }, 1000)
+  }
+
+
   return (
     <div className={`border-t-2  ${props.isDark ? "border-white " : "border-black "}  w-screen flex flex-col justify-center items-center p-8 text-white pl-[100px] pr-[100px]`} title="Contact Me">
 
 
       <form  action = "https://formspree.io/f/xpzeyyae" method = "post" className="flex flex-col gap-4  h-1/2"> 
          <label htmlFor = "mail" className={`flex flex-row items-center ${props.isDark ? "text-white " : "text-black "}`}>
-          <input placeholder={mail} type = "email" name = "email-id" id = "mail" className="text-black border-black border-2 p-1 text-lg rounded-[10px] sm:rounded-[5px] w-[70vw] sm:w-[50vw]" />
+          <input placeholder={mail} type = "email" name = "email-id" id = "mail" className="text-black border-black border-2 p-1 text-lg rounded-[10px] sm:rounded-[5px] w-[70vw] sm:w-[50vw]" value={email} onChange={(e) => setEmail(e.target.value)} />
          </label>
 
-         <textarea className="text-black p-2 w-[70vw] sm:w-[50vw] border-black border-2 rounded-[10px] sm:rounded-[5px]" placeholder = "Your message here....." name = "message" id = "message"></textarea>
+         <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="text-black p-2 w-[70vw] sm:w-[50vw] border-black border-2 rounded-[10px] sm:rounded-[5px]" placeholder = "Your message here....." name = "message" id = "message"></textarea>
 
          <div className="flex justify-center items-center">
-          <input type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-white " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 text-lg rounded-[5px] border-2 border-black font-semibold active:p-0`} />
+          <input onClick={handle} type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-white " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 text-lg rounded-[5px] border-2 border-black font-semibold active:p-0`} />
          </div>         
       </form> 
 
