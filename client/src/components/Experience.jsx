@@ -13,7 +13,7 @@ function Experience(props) {
          <div className="flex flex-row gap-2">
            <div className="">⭐</div>
            <div>
-            <p>Did a contract project with a freelancing firm.</p>
+            <p>Did a big freelance project with a firm.</p>
             <p>I was the only developer working on the project.</p>
             <p>I completed the project end-to-end and delivered it in time.</p>
             <br />
