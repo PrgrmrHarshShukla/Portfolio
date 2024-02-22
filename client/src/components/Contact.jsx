@@ -1,4 +1,3 @@
-// import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.css'
 import { useState } from 'react';
 
@@ -44,15 +43,27 @@ function Contact(props) {
         className={`flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 mt-20 text-3xl ${props.isDark ? "text-white " : "text-black "}`}
       >
         <a title="" target = "_blank" rel="noreferrer" href = "https://twitter.com/PrgrmrShukla">
-        <i className = "fab fa-twitter-square"></i>
+          <u className="text-lg hover:text-purple-300">
+            Twitter            
+          </u>
         </a>
         
         <a title="Do checkout my OPEN SOURCE CONTRIBUTIONS!" target = "_blank" rel="noreferrer" href = "https://github.com/PrgrmrHarshShukla">
-        <i className = "fab fa-github-square"></i>
+          <u className="text-lg hover:text-purple-300">
+            GitHub            
+          </u>
         </a>
         
         <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-shukla-274277255">
-        <i className = "fab fa-linkedin"></i>
+          <u className="text-lg hover:text-purple-300">
+            LinkedIn            
+          </u>
+        </a>
+
+        <a title="" target = "_blank" rel="noreferrer" href = "https://leetcode.com/harshshukla_123">
+          <u className="text-lg hover:text-purple-300">
+            Leetcode            
+          </u>
         </a>
       </div>
 
