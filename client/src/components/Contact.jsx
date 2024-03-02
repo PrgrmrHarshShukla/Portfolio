@@ -13,7 +13,7 @@ function Contact(props) {
     e.preventDefault();
     setTimeout(() => {
       if(email !== '' && message !== ''){
-        alert("Your message has been sent.");
+        alert("Hello there,\nI have your message in my mailbox.\nI will write back at the earliest.");
       }
       else{
         alert("Please fill in the fields to send a message.");

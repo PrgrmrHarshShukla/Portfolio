@@ -72,18 +72,6 @@ export default [
    //       "Hey"
    //    ]
    // },
-   // {
-   //    name: "Fintrrack",
-   //    live: "https://fintrrack.netlify.app/",
-   //    repo: "https://github.com/PrgrmrHarshShukla/Fintrack",
-   //    desc: "This is a fully responsive design clone of a static landing page that is made by following the design best practices.",
-   //    details: [
-   //       'This is one my design clones to showcase my Front-end skills,',
-   //       "I made this with the popular stack: TailwindCSS and React,",
-   //       'Made all the parts of the page as small React components and put them together to get the fully responsive, clean and concise landing page',
-   //       // '',
-   //    ]
-   // },
    {
       name: "Timer",
       live: "https://count-down-timer-web-app.netlify.app/",
