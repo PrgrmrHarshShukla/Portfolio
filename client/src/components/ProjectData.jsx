@@ -3,7 +3,7 @@ export default [
       name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Vchat",
-      desc: "This is the most private, real-time chat app. It's front-end is made using React and TailwindCSS. It's backend is a Web Socket server made using Socket.io",
+      desc: "This is the most private, real-time chat app with offline support. It's UI uses React and TailwindCSS. Backend is a Web Socket server made using Socket.io",
       details: [
          'This is a Full Stack project,',
          'Used Redux along with redux-toolkit for state management,',
@@ -23,19 +23,21 @@ export default [
          'I might not have been able to cover all that I tackled during the project, but doing this project completely on my own was definitely a lot of fun and gave me a lot of insights.',
       ]
    },
-   // {
-   //    name: "S-Mart",
-   //    live: "https://s-mart-e-commerce.netlify.app/",
-   //    repo: "https://github.com/PrgrmrHarshShukla/S-Mart",
-   //    desc: "This web app has full fledged e-commerce functionality. I made it using ReactJS, TailwindCSS and Firebase",
-   //    details: [
-   //       'This is one my Front-end heavy projects,',
-   //       'In this project I used a lot of concepts of ReactJS, that helped me have a solid grasp on the concepts,',
-   //       'Utilised the awesome Firebase features: Authentication, Firestore (cloud database) and Storage bucket,',
-   //       'Implemented Redux for maintaining the data layer on the front-end,',
-   //       'Set up Stripe for payment integration, although you would not get your product delivered even if you pay for it 😄 simply because they do not exist!',
-   //    ]
-   // },
+   {
+      name: "Scalable DB",
+      live: "https://scalables.netlify.app",
+      repo: "https://github.com/PrgrmrHarshShukla/scalableDB",
+      desc: "This is my attempt to build a highly scalable database design alongwith a query interface.",
+      details: [
+         "I chose to store logs with specified schemas alongwith timestamps.",
+         "These logs are stored in documents of a NoSQL database (MongoDB Atlas) on cloud",
+         "These are segregated into planned collections(based on Dates) to improve query perormance based on timestamps.",
+         "In this way, I have tried to balance the trade-offs of efficient writing speed into the database and efficient queries from the frontend.",
+         "Then deploying it was another hurdle.",
+         "I used Netlify and Render for deploying the Frontend and Backend respectively.",
+         "Let me know your thoughts on improving it! 🤔"
+      ]
+   },
    {
       name: "Dark.Mode",
       live: "https://dark-mode-pdf.netlify.app",
@@ -43,7 +45,7 @@ export default [
       desc: "Love Dark Mode? This web app will help you get dark_mode reading view of pdf(s).",
       details: [
          "Reading books or other material on screen always gives a lot of stress to our eyes.",
-         "My colleagues and I also struggled with this problem since time immemorial.",
+         "My colleagues and I also struggled with this problem since time immemorial! 😄",
          "Thus, to help everyone out, I made this simple tool.",
          "Just pick a pdf from your local filesystem and get our beloved dark mode in reading view for it."
       ]
