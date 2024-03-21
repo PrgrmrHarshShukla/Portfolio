@@ -24,6 +24,20 @@ export default [
       ]
    },
    {
+      name: "YT Robin",
+      live: "https://www.ytrobin.com",
+      repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
+      desc: "Enjoy the YouTube Thumbnail guessing game with the retro Windows UI.",
+      details: [
+         "This original idea belongs to Aadil Verma.",
+         "I created it end-to-end in 3 days.",
+         "I dealt with a lot of state updations, backend calls optimally in the main game page.",
+         "Takled them with proper use of useEffect and useState.",
+         "I can say I learnt these concepts mainly by doing.",
+         "Made it responsive across all devices."
+      ]
+   },
+   {
       name: "Scalable DB",
       live: "https://scalables.netlify.app",
       repo: "https://github.com/PrgrmrHarshShukla/scalableDB",
@@ -39,6 +53,18 @@ export default [
       ]
    },
    {
+      name: "Tweet Scraper",
+      live: "https://github.com/PrgrmrHarshShukla/scraper",
+      repo: "https://github.com/PrgrmrHarshShukla/scraper",
+      desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
+      details: [
+         "This idea belongs to Harsh Agrawal.",
+         "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
+         "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
+         "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
+      ]
+   },
+   {
       name: "Dark.Mode",
       live: "https://dark-mode-pdf.netlify.app",
       repo: "https://dark-mode-pdf.netlify.app",
@@ -50,19 +76,19 @@ export default [
          "Just pick a pdf from your local filesystem and get our beloved dark mode in reading view for it."
       ]
    },
-   {
-      name: "DSA Sheeter",
-      live: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
-      repo: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
-      desc: "I decided to focus more on DSA. So, to keep track of the Leetcode questions I solve, I made this browser extension.",
-      details: [
-         'This is a browser extension.',
-         "I thought of making this to keep track of the DSA questions I solve in the process of learning DSA.",
-         "It has a very minimal UI.",
-         "It just has a simple button to add the current question name and its link that helps you to access them whenever you want.",
-         "You will find a pic of its UI on GitHub README, as it has not yet been published to Chrome Web Store."
-      ]
-   },
+   // {
+   //    name: "DSA Sheeter",
+   //    live: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
+   //    repo: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
+   //    desc: "I decided to focus more on DSA. So, to keep track of the Leetcode questions I solve, I made this browser extension.",
+   //    details: [
+   //       'This is a browser extension.',
+   //       "I thought of making this to keep track of the DSA questions I solve in the process of learning DSA.",
+   //       "It has a very minimal UI.",
+   //       "It just has a simple button to add the current question name and its link that helps you to access them whenever you want.",
+   //       "You will find a pic of its UI on GitHub README, as it has not yet been published to Chrome Web Store."
+   //    ]
+   // },
    // {
    //    name: "YT Connect",
    //    live: "https://yt-connect.netlify.app",
@@ -72,17 +98,17 @@ export default [
    //       "Hey"
    //    ]
    // },
-   {
-      name: "Timer",
-      live: "https://count-down-timer-web-app.netlify.app/",
-      repo: "https://github.com/PrgrmrHarshShukla/CountDown-Timer",
-      desc: "This is a count-down timer. It takes an event from the user and runs a count-down to it.",
-      details: [
-         'This is one of my early beginner projects,',
-         'This was made using just HTML, CSS and JavaScript',
-         'I thought of making something like this to keep track of the time left with me until a target deadline or maybe a last date,',
-         'This made me feel about the actual impact I can make with my code, this has been a kind of motivation for me to keep learning,',
-         'You may want to give it a try for counting down to your favourite event using the live link above.',
-      ]
-   },
+   // {
+   //    name: "Timer",
+   //    live: "https://count-down-timer-web-app.netlify.app/",
+   //    repo: "https://github.com/PrgrmrHarshShukla/CountDown-Timer",
+   //    desc: "This is a count-down timer. It takes an event from the user and runs a count-down to it.",
+   //    details: [
+   //       'This is one of my early beginner projects,',
+   //       'This was made using just HTML, CSS and JavaScript',
+   //       'I thought of making something like this to keep track of the time left with me until a target deadline or maybe a last date,',
+   //       'This made me feel about the actual impact I can make with my code, this has been a kind of motivation for me to keep learning,',
+   //       'You may want to give it a try for counting down to your favourite event using the live link above.',
+   //    ]
+   // },
 ]
