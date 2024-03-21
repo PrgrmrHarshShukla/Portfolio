@@ -29,7 +29,7 @@ export default [
       repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
       desc: "Enjoy the YouTube Thumbnail guessing game with the retro Windows UI.",
       details: [
-         "This original idea belongs to Aadil Verma.",
+         "The original idea belongs to Aadil Verma.",
          "I created it end-to-end in 3 days.",
          "I dealt with a lot of state updations, backend calls optimally in the main game page.",
          "Takled them with proper use of useEffect and useState.",
@@ -58,7 +58,8 @@ export default [
       repo: "https://github.com/PrgrmrHarshShukla/scraper",
       desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
       details: [
-         "This idea belongs to Harsh Agrawal.",
+         "The original idea belongs to Harsh Agrawal.",
+         "I created it end-to-end in 2 days.",
          "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
          "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
          "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
