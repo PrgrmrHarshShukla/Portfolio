@@ -54,7 +54,7 @@ function Contact(props) {
           </u>
         </a>
         
-        <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-shukla-274277255">
+        <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-s-274277255">
           <u className="text-lg hover:text-purple-300">
             LinkedIn            
           </u>
