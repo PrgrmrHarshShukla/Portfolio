@@ -1,13 +1,28 @@
 export default [
    {
+      name: "YT Robin",
+      live: "https://www.ytrobin.com",
+      repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
+      desc: "Enjoy the YouTube Thumbnail guessing game with the retro Windows UI.\nIt currently has more than 200 users from all over the world.",
+      details: [
+         "The original idea belongs to Aadil Verma.",
+         "I created it end-to-end in 3 days.",
+         "Recreating the retro Windows UI was a very interesting part.",
+         "I dealt with a lot of state updations, backend calls optimally in the main game page.",
+         "Tackled them with proper use of useEffect and useState hooks.",
+         "I can say I learnt these concepts mainly by doing.",
+         "Made it responsive across all devices."
+      ]
+   },
+   {
       name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
       repo: "https://github.com/PrgrmrHarshShukla/Vchat",
-      desc: "This is the most private, real-time chat app with offline support. It's UI uses React and TailwindCSS. Backend is a Web Socket server made using Socket.io",
+      desc: "This is the most private, real-time chat app with offline support. It's UI uses React and TailwindCSS. Backend is a Web Socket server made using Socket.io. It currently has more than 10 active, logged in users.",
       details: [
          'This is a Full Stack project,',
-         'Used Redux along with redux-toolkit for state management,',
          'Used React and TailwindCSS for front-end,',
+         'Used Redux along with redux-toolkit for state management,',
          'NodeJS, Express and MongoDB Atlas for backend and database.',
          'Set up MongoDB Atlas database and connected it to my hosted backend for the necessary CRUD operations,', 
          'Updating user rooms in the database as well as the front-end data layer, when user joins a new room was a really nice task to practice the cool array methods and personal coding logic & understanding.',
@@ -21,20 +36,6 @@ export default [
          `But, if the sender is offline then, store the messages in a message queue (in sender's localStorage itself) and broadcast them as soon as the sender is back online.`,
          'Tackling errors & getting rid of warnings were some of the tasks that made the process of building an enjoyable experience,',
          'I might not have been able to cover all that I tackled during the project, but doing this project completely on my own was definitely a lot of fun and gave me a lot of insights.',
-      ]
-   },
-   {
-      name: "YT Robin",
-      live: "https://www.ytrobin.com",
-      repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
-      desc: "Enjoy the YouTube Thumbnail guessing game with the retro Windows UI.",
-      details: [
-         "The original idea belongs to Aadil Verma.",
-         "I created it end-to-end in 3 days.",
-         "I dealt with a lot of state updations, backend calls optimally in the main game page.",
-         "Takled them with proper use of useEffect and useState.",
-         "I can say I learnt these concepts mainly by doing.",
-         "Made it responsive across all devices."
       ]
    },
    {
