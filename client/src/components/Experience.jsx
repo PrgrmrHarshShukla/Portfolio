@@ -10,26 +10,7 @@ function Experience(props) {
  
        <div className={`sm:w-2/3 gap-24 sm:gap-24 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-around gap-8 sm:gap-12 text-[15px] sm:text-lg`}>
             
-         <div className="flex flex-row gap-2">
-           <div className="">⭐</div>
-           <div>
-            <a href="https://www.ytrobin.com" target="_blank">
-              <p className='font-bold underline'>YT Robin</p>
-            </a>
-            <p>I was the only developer working on the project.</p>
-            <p>I completed the project end-to-end and deployed it in 3 days.</p>
-            <br />
-            <p className="font-semibold"><u>Things I tackled during the project:</u></p>
-            <ul>
-              <li>→ Made a retro windows UI.</li>
-              <li>→ Tech stack used: NextJS, TypeScript, TailwindCSS</li>
-              <li>→ It includes a game of youtube thumbnail guessing.</li>
-              {/* <li>→ Played with Hostinger and Netlify for CI/CD,</li> */}
-              {/* <li>→ Figured out the way to get image directly from system files for some forms whose print out was to be taken,</li> */}
-              <li>→ Made the whole website to be completely responsive for all device sizes.</li>
-            </ul>
-           </div>
-         </div>              
+                       
          <div className="flex flex-row gap-2">
            <div className="">⭐</div>
            <div>
