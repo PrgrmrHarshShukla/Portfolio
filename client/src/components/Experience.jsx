@@ -36,7 +36,7 @@ function Experience(props) {
             <a href="https://github.com/pulls?q=is%3Aopen+is%3Apr+author%3APrgrmrHarshShukla+archived%3Afalse+is%3Aclosed+is%3Amerged" target="_blank">
               <p className='font-bold underline'>OS Contributions</p>
             </a>
-            <p>Making regular contributions to amazing Open Source codebases, like, <a href="https://github.com/MetaMask/metamask-extension"><u>Metamask</u></a>, where <u><a href="https://github.com/PrgrmrHarshShukla">40 PRs</a></u> have been merged till now.</p>
+            <p>Making regular contributions to amazing Open Source codebases, like, <a href="https://github.com/MetaMask/metamask-extension"><u>Metamask</u></a>, where <u><a href="https://github.com/PrgrmrHarshShukla">40+ PRs</a></u> have been merged till now.</p>
             <br />
             <p className="font-semibold"><u>Things I am learning and doing through these PRs:</u></p>
             <p>→ In the repository I have replaced a lot of old (deprecated) components in the code with new components.</p>
