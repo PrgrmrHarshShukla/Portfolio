@@ -1,5 +1,36 @@
 export default [
    {
+      name: "DM Cards",
+      live: "https://dmcards.vercel.app",
+      repo: "https://dmcards.vercel.app",
+      desc: "Send a card with objective questions in DMs, make it easy & quick for the receiver to reply.\nIt gained hundreds of visitors and over 25 registered users within a week of launch.",
+      details: [
+         "It gained hundreds of visitors and over 25 registered users within a week of launch and is growing continuously.",
+         "This is a productivity tool to help you get more replies to your DMs.",
+         "The idea is to send a card with objective questions in DMs, make it easy & quick for the receiver to reply.",
+         "I made it within a week, from idea to deployment.",
+         "Controlling the access of the cards was the exciting part, would love to discuss it with you, if you want.",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
+         "Made it responsive across all devices."
+      ]
+   },
+   {
+      name: "Vidpedia",
+      live: "https://vidpedia.vercel.app",
+      repo: "https://vidpedia.vercel.app",
+      desc: "A detailed directory of video editing styles and techniques of video editors around the world.\nIt currently has more than 100 visitors from all over the world.",
+      details: [
+         "The original idea belongs to Aadil Verma.",
+         "It currently has more than 100 visitors from all over the world.",
+         "I also implemented a table that mimicked the live database for the admin to add, update and delete any data.",
+         "Any changes made in the table are reflected in the live database as well as the UI.",
+         "Stored thousands of records in the database and made it searchable with the help of Prisma's query language.",
+         "Used Firebase to store the actual GIF files and their URLs in the database.",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
+         "Made it responsive across all devices."
+      ]
+   },
+   {
       name: "YT Robin",
       live: "https://www.ytrobin.com",
       repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
@@ -53,31 +84,31 @@ export default [
          "Let me know your thoughts on improving it! 🤔"
       ]
    },
-   {
-      name: "Tweet Scraper",
-      live: "https://github.com/PrgrmrHarshShukla/scraper",
-      repo: "https://github.com/PrgrmrHarshShukla/scraper",
-      desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
-      details: [
-         "The original idea belongs to Harsh Agrawal.",
-         "I created it end-to-end in 2 days.",
-         "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
-         "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
-         "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
-      ]
-   },
-   {
-      name: "Dark.Mode",
-      live: "https://dark-mode-pdf.netlify.app",
-      repo: "https://dark-mode-pdf.netlify.app",
-      desc: "Love Dark Mode? This web app will help you get dark_mode reading view of pdf(s).",
-      details: [
-         "Reading books or other material on screen always gives a lot of stress to our eyes.",
-         "My colleagues and I also struggled with this problem since time immemorial! 😄",
-         "Thus, to help everyone out, I made this simple tool.",
-         "Just pick a pdf from your local filesystem and get our beloved dark mode in reading view for it."
-      ]
-   },
+   // {
+   //    name: "Tweet Scraper",
+   //    live: "https://github.com/PrgrmrHarshShukla/scraper",
+   //    repo: "https://github.com/PrgrmrHarshShukla/scraper",
+   //    desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
+   //    details: [
+   //       "The original idea belongs to Harsh Agrawal.",
+   //       "I created it end-to-end in 2 days.",
+   //       "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
+   //       "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
+   //       "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
+   //    ]
+   // },
+   // {
+   //    name: "Dark.Mode",
+   //    live: "https://dark-mode-pdf.netlify.app",
+   //    repo: "https://dark-mode-pdf.netlify.app",
+   //    desc: "Love Dark Mode? This web app will help you get dark_mode reading view of pdf(s).",
+   //    details: [
+   //       "Reading books or other material on screen always gives a lot of stress to our eyes.",
+   //       "My colleagues and I also struggled with this problem since time immemorial! 😄",
+   //       "Thus, to help everyone out, I made this simple tool.",
+   //       "Just pick a pdf from your local filesystem and get our beloved dark mode in reading view for it."
+   //    ]
+   // },
    // {
    //    name: "DSA Sheeter",
    //    live: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
