@@ -12,6 +12,10 @@ export default [
          "Controlling the access of the cards was the exciting part, would love to discuss it with you, if you want.",
          "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
          "Made it responsive across all devices."
+      ],
+      images: [
+         "../public/dmcards1.png",
+         "../public/dmcards2.png"
       ]
    },
    {
@@ -28,6 +32,11 @@ export default [
          "Used Firebase to store the actual GIF files and their URLs in the database.",
          "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
          "Made it responsive across all devices."
+      ],
+      images: [
+         "../public/vid2.png",
+         "../public/vid1.png",
+         "../public/vid3.png",
       ]
    },
    {
@@ -43,6 +52,12 @@ export default [
          "Tackled them with proper use of useEffect and useState hooks.",
          "I can say I learnt these concepts mainly by doing.",
          "Made it responsive across all devices."
+      ],
+      images: [
+         "../public/yt1.png",
+         "../public/yt2.png",
+         "../public/yt3.png",
+         "../public/yt4.png",
       ]
    },
    {

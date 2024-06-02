@@ -7,7 +7,7 @@ function ProjectDescription() {
     // console.log(typeof index);
 
     const projectData = data[index]
-    const { name, live, repo, desc, details } = projectData
+    const { name, live, repo, desc, details, images } = projectData
 
     const detailsList = details.map((item, index) => {
         return(
@@ -24,7 +24,7 @@ function ProjectDescription() {
 
     
   return (
-    <div className="w-screen h-auto flex flex-col justify-center items-center bg-slate-400">
+    <div className="w-screen h-auto min-h-screen flex flex-col justify-center items-center bg-slate-400">
 
         <div className="max-w-[550px] w-[100vw] h-auto min-h-screen bg-sky-100 py-[2vh] sm:px-[1vw] px-[2vw]">
             <span className="text-left font-bold text-4xl sm:text-6xl">{name}</span>
@@ -38,6 +38,16 @@ function ProjectDescription() {
                 {desc}
             </div>
 
+            <div className='flex flex-row flex-wrap justify-start items-center w-full'>
+                {images && 
+                    images.map((img, index) => {
+                        return(
+                            <img key={index} className="mt-[5vh] max-w-[300px] sm:max-w-[420px] rounded-[5px]" src={img} alt={name} />
+                        )
+                    })
+                }
+            </div>
+
             <div className="mt-[5vh] max-w-[300px] sm:max-w-[420px]">
                 <span className="font-semibold text-[19px]">
                     <u>
@@ -48,6 +58,8 @@ function ProjectDescription() {
                     {detailsList}
                 </ul>
             </div>
+
+
                     
         </div>
     </div>
