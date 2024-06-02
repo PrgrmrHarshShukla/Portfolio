@@ -14,8 +14,8 @@ export default [
          "Made it responsive across all devices."
       ],
       images: [
-         "../public/dmcards1.png",
-         "../public/dmcards2.png"
+         "../dmcards1.png",
+         "../dmcards2.png"
       ]
    },
    {
@@ -34,9 +34,9 @@ export default [
          "Made it responsive across all devices."
       ],
       images: [
-         "../public/vid2.png",
-         "../public/vid1.png",
-         "../public/vid3.png",
+         "../vid2.png",
+         "../vid1.png",
+         "../vid3.png",
       ]
    },
    {
@@ -54,10 +54,10 @@ export default [
          "Made it responsive across all devices."
       ],
       images: [
-         "../public/yt1.png",
-         "../public/yt2.png",
-         "../public/yt3.png",
-         "../public/yt4.png",
+         "../yt1.png",
+         "../yt2.png",
+         "../yt3.png",
+         "../yt4.png",
       ]
    },
    {
@@ -82,6 +82,11 @@ export default [
          `But, if the sender is offline then, store the messages in a message queue (in sender's localStorage itself) and broadcast them as soon as the sender is back online.`,
          'Tackling errors & getting rid of warnings were some of the tasks that made the process of building an enjoyable experience,',
          'I might not have been able to cover all that I tackled during the project, but doing this project completely on my own was definitely a lot of fun and gave me a lot of insights.',
+      ],
+      images: [
+         "../fc1.png",
+         "../fc2.png",
+         "../fc3.png",
       ]
    },
    {
@@ -97,6 +102,9 @@ export default [
          "Then deploying it was another hurdle.",
          "I used Netlify and Render for deploying the Frontend and Backend respectively.",
          "Let me know your thoughts on improving it! 🤔"
+      ],
+      images: [
+         "../sc1.png"
       ]
    },
    // {
