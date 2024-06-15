@@ -24,7 +24,7 @@ function ProjectDescription() {
 
     
   return (
-    <div className="w-screen h-auto min-h-screen flex flex-col justify-center items-center bg-slate-400">
+    <div className="w-[98.9vw] h-auto min-h-screen flex flex-col justify-center items-center bg-slate-400">
 
         <div className="max-w-[550px] w-[100vw] h-auto min-h-screen bg-sky-100 py-[2vh] sm:px-[1vw] px-[2vw]">
             <span className="text-left font-bold text-4xl sm:text-6xl">{name}</span>
