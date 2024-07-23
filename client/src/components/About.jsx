@@ -42,7 +42,7 @@ function About(props) {
                   <span className="hover:text-sky-700 dark:hover:text-sky-300 transition-all duration-500 font-semibold">Harsh Shukla</span>
                </h1>
                <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl font-semibold font-serif hover:ml-8 hover:text-yellow-600 transition-all duration-500`}>
-                  Full Stack (MERN) Developer
+                  Full Stack Developer
                </h1>
             </div>
          </div>
