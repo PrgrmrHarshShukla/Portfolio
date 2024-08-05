@@ -53,7 +53,7 @@ function About(props) {
                   <span className="hover:text-sky-700 dark:hover:text-sky-300 transition-all duration-500 font-semibold">Harsh Shukla</span>
                </h1>
                <motion.div
-                  whileHover={{ scale: 1.05, color: props.isDark ? "#60A5FA" : "#2563EB" }}
+                  whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ duration: 0.3, ease: "easeInOut" }}
                   className={`${props.isDark ? "text-white" : "text-black"} text-xl sm:text-3xl font-semibold font-serif`}
