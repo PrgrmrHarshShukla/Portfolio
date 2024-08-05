@@ -28,7 +28,7 @@ function About(props) {
                ></i>
             </button>          
             <motion.button
-               whileHover={{ scale: 1.05, color: props.isDark ? "#60A5FA" : "#2563EB" }}
+               whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.9 }}
                transition={{ duration: 0.3, ease: "easeInOut" }}
                onClick={scrollDown}
