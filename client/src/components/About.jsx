@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 import '@fortawesome/fontawesome-free/css/all.css'
 
 
@@ -12,7 +13,7 @@ function About(props) {
 
    const scrollDown = () => {
       window.scrollTo({
-         top: document.body.scrollHeight,
+         top: 900,
          behavior: 'smooth'
       });
    }
@@ -21,14 +22,24 @@ function About(props) {
       <div className={`flex flex-col ${props.isDark ? "border-white " : "border-black "} w-screen h-screen pl-4 border-b-2`}>
 
          <div className="h-1/6 flex flex-row justify-between items-center text-white pr-12">
-            <button className={`border-2 ${props.isDark ? "" : "border-black px-2.5 "} px-2 py-1 rounded-full`} onClick={props.toggle}>
+            <button className={`flex justify-center items-center border-2 ${props.isDark ? "" : "border-black "} p-4 rounded-full h-8 w-8`} onClick={props.toggle}>
                <i
-                  className={`fas fa-${props.isDark == true ? "sun text-white" : "moon text-black"} text-lg`} 
+                  className={`fas fa-${props.isDark == true ? "sun text-white" : "moon text-black"} `} 
                ></i>
             </button>          
-            <p title="Contact Me" className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black">
-               <button onClick={scrollDown}>Building in Public</button>
-            </p>
+            <motion.button
+               whileHover={{ scale: 1.05 }}
+               whileTap={{ scale: 0.9 }}
+               transition={{ duration: 0.3, ease: "easeInOut" }}
+               onClick={scrollDown}
+               title="Contact Me" 
+               className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black"
+            >
+               <button
+               >
+                  Building in Public
+               </button>
+            </motion.button>
          </div>
          
          <div className="h-3/5 flex flex-col justify-center items-start text-left lg:items-center lg:text-center">
@@ -41,9 +52,14 @@ function About(props) {
                   <span className="hover:text-sky-500 dark:hover:text-sky-200 transition-all duration-500"> is </span>
                   <span className="hover:text-sky-700 dark:hover:text-sky-300 transition-all duration-500 font-semibold">Harsh Shukla</span>
                </h1>
-               <h1 className={`${props.isDark ?  "text-white " : "text-black "} text-xl sm:text-3xl font-semibold font-serif hover:ml-8 hover:text-yellow-600 transition-all duration-500`}>
-                  Full Stack Developer
-               </h1>
+               <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className={`${props.isDark ? "text-white" : "text-black"} text-xl sm:text-3xl font-semibold font-serif`}
+               >
+                  Full Stack & Android Developer
+               </motion.div>
             </div>
          </div>
 
