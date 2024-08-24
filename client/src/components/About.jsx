@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 import '@fortawesome/fontawesome-free/css/all.css'
 
 
@@ -78,3 +79,9 @@ function About(props) {
 }
 
 export default About
+
+
+About.propTypes = {
+   isDark: PropTypes.bool.isRequired,
+   toggle: PropTypes.func.isRequired
+}
