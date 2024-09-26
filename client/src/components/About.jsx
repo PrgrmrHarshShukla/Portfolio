@@ -12,11 +12,15 @@ function About(props) {
      setShow(true);
    }, []);
 
-   const scrollDown = () => {
-      window.scrollTo({
-         top: 900,
-         behavior: 'smooth'
-      });
+   // const scrollDown = () => {
+   //    window.scrollTo({
+   //       top: 900,
+   //       behavior: 'smooth'
+   //    });
+   // }
+
+   const handleClick = () => {
+      window.open("https://drive.google.com/file/d/1Us5h7KwzpRvEJcWyvHuZ-dkX7wz0xxsn/view?usp=drivesdk", "_blank");
    }
 
    return (
@@ -32,13 +36,12 @@ function About(props) {
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.9 }}
                transition={{ duration: 0.3, ease: "easeInOut" }}
-               onClick={scrollDown}
-               title="Contact Me" 
-               className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black"
+               onClick={handleClick}
+               title="Resume Link" 
+               className="bg-yellow-300 hover:bg-gradient-to-tr from-white to-yellow-500 rounded-full p-1 px-4 text-black flex justify-center items-center"
             >
-               <button
-               >
-                  Building in Public
+               <button>
+                  Resume Link
                </button>
             </motion.button>
          </div>
