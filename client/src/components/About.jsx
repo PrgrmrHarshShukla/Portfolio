@@ -20,7 +20,7 @@ function About(props) {
    // }
 
    const handleClick = () => {
-      window.open("https://drive.google.com/file/d/14SDbAOJugk0B8Fgb07HoO32ssgdWHXhs/view", "_blank");
+      window.open("https://drive.google.com/file/d/1Us5h7KwzpRvEJcWyvHuZ-dkX7wz0xxsn/view", "_blank");
    }
 
    return (
