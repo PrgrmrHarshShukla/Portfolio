@@ -1,24 +1,5 @@
 export default [
    {
-      name: "DM Cards",
-      live: "https://dmcards.vercel.app",
-      repo: "https://dmcards.vercel.app",
-      desc: "Send a card with objective questions in DMs, make it easy & quick for the receiver to reply.\nIt gained hundreds of visitors and over 25 registered users within a week of launch.",
-      details: [
-         "It gained hundreds of visitors and over 25 registered users within a week of launch and is growing continuously.",
-         "This is a productivity tool to help you get more replies to your DMs.",
-         "The idea is to send a card with objective questions in DMs, make it easy & quick for the receiver to reply.",
-         "I made it within a week, from idea to deployment.",
-         "Controlling the access of the cards was the exciting part, would love to discuss it with you, if you want.",
-         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
-         "Made it responsive across all devices."
-      ],
-      images: [
-         "../dmcards1.png",
-         "../dmcards2.png"
-      ]
-   },
-   {
       name: "Vidpedia",
       live: "https://vidpedia.vercel.app",
       repo: "https://vidpedia.vercel.app",
@@ -58,6 +39,25 @@ export default [
          "../yt2.png",
          "../yt3.png",
          "../yt4.png",
+      ]
+   },
+   {
+      name: "DM Cards",
+      live: "https://dmcards.vercel.app",
+      repo: "https://dmcards.vercel.app",
+      desc: "Send a card with objective questions in DMs, make it easy & quick for the receiver to reply.\nIt gained hundreds of visitors and over 25 registered users within a week of launch.",
+      details: [
+         "It gained hundreds of visitors and over 25 registered users within a week of launch and is growing continuously.",
+         "This is a productivity tool to help you get more replies to your DMs.",
+         "The idea is to send a card with objective questions in DMs, make it easy & quick for the receiver to reply.",
+         "I made it within a week, from idea to deployment.",
+         "Controlling the access of the cards was the exciting part, would love to discuss it with you, if you want.",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
+         "Made it responsive across all devices."
+      ],
+      images: [
+         "../dmcards1.png",
+         "../dmcards2.png"
       ]
    },
    {

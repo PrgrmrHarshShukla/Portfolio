@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import data from './ProjectData';
 
 
 function ProjectDescription() {
     const [index, setIndex] = useState(JSON.parse(localStorage.getItem('portfolio_project-index')))
     // console.log(typeof index);
+    useEffect(() => {
+        const val = JSON.parse(localStorage.getItem('portfolio_project-index'));
+        if (index === null) {
+            setIndex(0);
+        }
+        else {
+            setIndex(val);
+        }
+    }, [])
 
     const projectData = data[index]
     const { name, live, repo, desc, details, images } = projectData

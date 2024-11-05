@@ -31,7 +31,7 @@ function Contact(props) {
           <input placeholder={mail} type = "email" name = "email-id" id = "mail" className="text-black border-black border-2 py-1 pl-2 outline-none rounded-[10px] sm:rounded-[5px] w-[70vw] sm:w-[50vw]" value={email} onChange={(e) => setEmail(e.target.value)} />
          </label>
 
-         <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="text-black py-2 h-[20vh] px-2 w-[70vw] sm:w-[50vw] border-black border-2 outline-none rounded-[10px] sm:rounded-[5px]" placeholder = {`Your message here.....\n(It really works!)`} name = "message" id = "message"></textarea>
+         <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="text-black py-2 h-[20vh] px-2 w-[70vw] sm:w-[50vw] border-black border-2 outline-none rounded-[10px] sm:rounded-[5px] resize-none" placeholder = {`Your message here.....\n(It really works!)`} name = "message" id = "message"></textarea>
 
          <div className="flex justify-center items-center">
           <input onClick={handle} type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-blue-300 " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 text-lg rounded-[5px] border-2 border-black font-semibold active:p-0`} />
@@ -40,7 +40,7 @@ function Contact(props) {
 
       <div 
         title="Do checkout my OPEN SOURCE CONTRIBUTIONS!" 
-        className={`flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 mt-20 text-3xl ${props.isDark ? "text-white " : "text-black "}`}
+        className={`flex flex-row flex-wrap justify-center items-center gap-3 sm:gap-8 mt-20 text-3xl w-full ${props.isDark ? "text-white " : "text-black "}`}
       >
         <a title="" target = "_blank" rel="noreferrer" href = "https://twitter.com/PrgrmrShukla">
           <u className="text-lg hover:text-purple-300">
@@ -54,7 +54,7 @@ function Contact(props) {
           </u>
         </a>
         
-        <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-274277255">
+        <a title="" target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/harsh-s-274277255">
           <u className="text-lg hover:text-purple-300">
             LinkedIn            
           </u>

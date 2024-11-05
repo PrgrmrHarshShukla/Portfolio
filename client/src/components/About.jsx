@@ -26,7 +26,7 @@ function About(props) {
    return (
       <div className={`flex flex-col ${props.isDark ? "border-white " : "border-black "} w-screen h-screen pl-4 border-b-2`}>
 
-         <div className="h-1/6 flex flex-row justify-between items-center text-white pr-12">
+         <div className="h-1/6 flex flex-row justify-between items-center text-white px-4 md:px-8 w-full">
             <button className={`flex justify-center items-center border-2 ${props.isDark ? "" : "border-black "} p-4 rounded-full h-8 w-8`} onClick={props.toggle}>
                <i
                   className={`fas fa-${props.isDark == true ? "sun text-white" : "moon text-black"} `} 
