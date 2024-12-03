@@ -1,20 +1,32 @@
 import { useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion';
 
 
 function ProjectTemplate({name, live, repo, desc, index}) {
   const navigate = useNavigate()
 
   const handleClick = () => {
-    localStorage.setItem('portfolio_project-index', JSON.stringify(index))
     navigate(`/projectDescription/${index}`)
   }
 
 
 
   return (
-    <div>
+    <motion.div>
 
-        <div className="text-left p-2 flex flex-col justify-between gap-8">            
+        <motion.div 
+          className="text-left p-6 flex flex-col justify-between gap-8 shadow-lg rounded-lg "
+          whileHover={{ scale: 1.1 }} 
+          whileTap={{ scale: 0.9 }} 
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          exit={{ scale: 0 }}
+          transition={{
+            type: 'spring',            
+            stiffness: 260,
+            damping: 20,
+          }}
+        >            
             <div className="flex flex-row justify-between itmes-center">
               <strong className="text-[20px] sm:text-2xl">{name}</strong>
               <div className="flex flex-row gap-4 justify-center items-center text-black">
@@ -28,10 +40,10 @@ function ProjectTemplate({name, live, repo, desc, index}) {
               <u>Detailed Description</u>
               </span>
             </div>
-        </div>
+        </motion.div>
 
 
-    </div>
+    </motion.div>
   )
 }
 
