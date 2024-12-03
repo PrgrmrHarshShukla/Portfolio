@@ -6,7 +6,7 @@ function ProjectTemplate({name, live, repo, desc, index}) {
 
   const handleClick = () => {
     localStorage.setItem('portfolio_project-index', JSON.stringify(index))
-    navigate('/projectDescription')
+    navigate(`/projectDescription/${index}`)
   }
 
 

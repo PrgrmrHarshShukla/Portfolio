@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import data from './ProjectData';
 import ProjectTemplate from './ProjectTemplate';
 

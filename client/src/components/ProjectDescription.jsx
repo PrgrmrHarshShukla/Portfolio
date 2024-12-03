@@ -1,19 +1,10 @@
-import { useEffect, useState } from 'react'
 import data from './ProjectData';
-
+import { useParams } from 'react-router-dom';
 
 function ProjectDescription() {
-    const [index, setIndex] = useState(JSON.parse(localStorage.getItem('portfolio_project-index')))
+    const { id } = useParams();
+    const index = parseInt(id);
     // console.log(typeof index);
-    useEffect(() => {
-        const val = JSON.parse(localStorage.getItem('portfolio_project-index'));
-        if (index === null) {
-            setIndex(0);
-        }
-        else {
-            setIndex(val);
-        }
-    }, [])
 
     const projectData = data[index]
     const { name, live, repo, desc, details, images } = projectData
