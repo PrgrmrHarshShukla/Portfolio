@@ -18,7 +18,6 @@ function ProjectTemplate(props) {
         <motion.div 
           className="text-left p-6 flex flex-col justify-between gap-8 shadow-lg rounded-lg "
           whileHover={{ scale: 1.1 }} 
-          whileTap={{ scale: 0.9 }} 
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           exit={{ scale: 0 }}

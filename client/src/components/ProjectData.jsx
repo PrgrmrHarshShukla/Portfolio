@@ -128,7 +128,7 @@ export default [
          "The original idea belongs to Harsh Agrawal.",
          "I created it end-to-end in 2 days.",
          "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
-         "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
+         "And, OpenAI API call to extract data from it and store in a PostgreSQL database.",
          "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
       ]
    },

@@ -7,7 +7,7 @@ function ProjectDescription() {
     // console.log(typeof index);
 
     const projectData = data[index]
-    const { name, live, repo, desc, details, images } = projectData
+    const { name, live, hasLive, hasPublicRepo, repo, desc, details, images } = projectData
 
     const detailsList = details.map((item, index) => {
         return(
@@ -30,8 +30,8 @@ function ProjectDescription() {
             <span className="text-left font-bold text-4xl sm:text-6xl">{name}</span>
             <hr className="border border-black" />
             <div className="flex flex-row gap-4 justify-start items-center text-black mt-[2vh]">
-              <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={live}>Live</a>
-              <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={repo}>GitHub</a>
+              {hasLive && <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={live}>Live</a>}
+              {hasPublicRepo && <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={repo}>GitHub</a>}
             </div>
 
             <div className="mt-[4vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px]">
