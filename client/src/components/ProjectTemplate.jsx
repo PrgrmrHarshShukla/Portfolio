@@ -2,8 +2,9 @@ import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion';
 
 
-function ProjectTemplate({name, live, repo, desc, index}) {
+function ProjectTemplate(props) {
   const navigate = useNavigate()
+  const { name, live, repo, desc, hasLive, hasPublicRepo, index } = props;
 
   const handleClick = () => {
     navigate(`/projectDescription/${index}`)
@@ -27,11 +28,29 @@ function ProjectTemplate({name, live, repo, desc, index}) {
             damping: 20,
           }}
         >            
-            <div className="flex flex-row justify-between itmes-center">
-              <strong className="text-[20px] sm:text-2xl">{name}</strong>
+            <div className="flex flex-col sm:flex-row justify-start sm:justify-between items-start gap-4 sm:gap-0">
+              <strong className="text-2xl">{name}</strong>
               <div className="flex flex-row gap-4 justify-center items-center text-black">
-                <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={live}>Live</a>
-                <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={repo}>GitHub</a>
+                {hasLive && 
+                  <a 
+                    className="border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    href={live}
+                  >
+                      Live
+                  </a>
+                }
+                {hasPublicRepo && 
+                  <a 
+                    className="border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    href={repo}
+                  >
+                      GitHub
+                  </a>
+                }
               </div>
             </div>
             <p className="text-[15px] sm:text-lg lg:max-w-[500px]">{desc}</p>

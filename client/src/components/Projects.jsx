@@ -22,6 +22,8 @@ function Projects(props) {
         isDark={props.isDark} 
         name={data[index].name}
         live={data[index].live}
+        hasLive={data[index].hasLive}
+        hasPublicRepo={data[index].hasPublicRepo}
         repo={data[index].repo}
         desc={data[index].desc}
       />

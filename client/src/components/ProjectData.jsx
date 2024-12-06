@@ -2,6 +2,8 @@ export default [
    {
       name: "Vidpedia",
       live: "https://vidpedia.vercel.app",
+      hasLive: true,
+      hasPublicRepo: false,
       repo: "https://vidpedia.vercel.app",
       desc: "A detailed directory of video editing styles and techniques of video editors around the world.\nIt currently has more than 100 visitors from all over the world.",
       details: [
@@ -23,6 +25,8 @@ export default [
    {
       name: "YT Robin",
       live: "https://www.ytrobin.com",
+      hasLive: true,
+      hasPublicRepo: true,
       repo: "https://github.com/PrgrmrHarshShukla/yt_robin",
       desc: "Enjoy the YouTube Thumbnail guessing game with the retro Windows UI.\nIt currently has more than 200 users from all over the world.",
       details: [
@@ -44,6 +48,8 @@ export default [
    {
       name: "DM Cards",
       live: "https://dmcards.vercel.app",
+      hasLive: true,
+      hasPublicRepo: false,
       repo: "https://dmcards.vercel.app",
       desc: "Send a card with objective questions in DMs, make it easy & quick for the receiver to reply.\nIt gained hundreds of visitors and over 25 registered users within a week of launch.",
       details: [
@@ -63,6 +69,8 @@ export default [
    {
       name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
+      hasLive: true,
+      hasPublicRepo: true,
       repo: "https://github.com/PrgrmrHarshShukla/Vchat",
       desc: "This is the most private, real-time chat app with offline support. It's UI uses React and TailwindCSS. Backend is a Web Socket server made using Socket.io. It currently has more than 10 active, logged in users.",
       details: [
@@ -92,6 +100,8 @@ export default [
    {
       name: "Scalable DB",
       live: "https://scalables.netlify.app",
+      hasLive: true,
+      hasPublicRepo: true,
       repo: "https://github.com/PrgrmrHarshShukla/scalableDB",
       desc: "This is my attempt to build a highly scalable database design alongwith a query interface.",
       details: [
@@ -107,22 +117,26 @@ export default [
          "../sc1.png"
       ]
    },
-   // {
-   //    name: "Tweet Scraper",
-   //    live: "https://github.com/PrgrmrHarshShukla/scraper",
-   //    repo: "https://github.com/PrgrmrHarshShukla/scraper",
-   //    desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
-   //    details: [
-   //       "The original idea belongs to Harsh Agrawal.",
-   //       "I created it end-to-end in 2 days.",
-   //       "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
-   //       "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
-   //       "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
-   //    ]
-   // },
+   {
+      name: "Tweet Scraper",
+      live: "https://github.com/PrgrmrHarshShukla/scraper",
+      hasLive: false,
+      hasPublicRepo: true,
+      repo: "https://github.com/PrgrmrHarshShukla/scraper",
+      desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
+      details: [
+         "The original idea belongs to Harsh Agrawal.",
+         "I created it end-to-end in 2 days.",
+         "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
+         "And, OpenAI API to extract data from it and store in a PostgreSQL database.",
+         "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
+      ]
+   },
    // {
    //    name: "Dark.Mode",
    //    live: "https://dark-mode-pdf.netlify.app",
+   //    hasLive: true,
+   //    hasPublicRepo: true,
    //    repo: "https://dark-mode-pdf.netlify.app",
    //    desc: "Love Dark Mode? This web app will help you get dark_mode reading view of pdf(s).",
    //    details: [
@@ -135,6 +149,8 @@ export default [
    // {
    //    name: "DSA Sheeter",
    //    live: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
+   //    hasLive: false,
+   //    hasPublicRepo: true,
    //    repo: "https://github.com/PrgrmrHarshShukla/DSA_Sheeter",
    //    desc: "I decided to focus more on DSA. So, to keep track of the Leetcode questions I solve, I made this browser extension.",
    //    details: [
@@ -148,6 +164,8 @@ export default [
    // {
    //    name: "YT Connect",
    //    live: "https://yt-connect.netlify.app",
+   //    hasLive: true,
+   //    hasPublicRepo: true,
    //    repo: "https://github.com/PrgrmrHarshShukla/YT_Connect",
    //    desc: "This web app simplifies youtube video upload process by helping you give secure access of your channel to Editors.",
    //    details: [
@@ -157,6 +175,8 @@ export default [
    // {
    //    name: "Timer",
    //    live: "https://count-down-timer-web-app.netlify.app/",
+   //    hasLive: true,
+   //    hasPublicRepo: true,
    //    repo: "https://github.com/PrgrmrHarshShukla/CountDown-Timer",
    //    desc: "This is a count-down timer. It takes an event from the user and runs a count-down to it.",
    //    details: [
