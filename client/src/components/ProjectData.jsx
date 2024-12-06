@@ -98,6 +98,47 @@ export default [
       ]
    },
    {
+      name: "Image Processor",
+      live: "https://new-image-processor.vercel.app",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://new-image-processor.vercel.app",
+      desc: "This is a image processing tool to apply various customizable overlays on images.",
+      details: [
+         "Users can upload images by selecting them from their local filesystem.",
+         "User can apply text overlays with adjustable fonts, sizes, and colors.",
+         "User can add multiple elements dynamically.",
+         "User can add logo to add a professional touch.",
+         "User can change the aspect ratio, text color, font size and text content.",
+         "Undo and Redo buttons are also provided for better user experience.",
+         "User can download the processed image.",
+         "Responsive UI for seamless experience across devices.",
+         "Tech Stack: Next.js, TypeScript, TailwindCSS and dom-to-image library",
+         "It is a freelance project and belongs to the client.",
+      ],
+      images: [
+         "../img-p-2.png",
+         "../img-p-1.png",
+         "../img-p-4.png",
+         "../img-p-3.png"
+      ]
+   },
+   {
+      name: "Tweet Scraper",
+      live: "https://github.com/PrgrmrHarshShukla/scraper",
+      hasLive: false,
+      hasPublicRepo: true,
+      repo: "https://github.com/PrgrmrHarshShukla/scraper",
+      desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
+      details: [
+         "The original idea belongs to Harsh Agrawal.",
+         "I created it end-to-end in 2 days.",
+         "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
+         "And, OpenAI API call to extract data from it and store in a PostgreSQL database.",
+         "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
+      ]
+   },
+   {
       name: "Scalable DB",
       live: "https://scalables.netlify.app",
       hasLive: true,
@@ -117,24 +158,9 @@ export default [
          "../sc1.png"
       ]
    },
-   {
-      name: "Tweet Scraper",
-      live: "https://github.com/PrgrmrHarshShukla/scraper",
-      hasLive: false,
-      hasPublicRepo: true,
-      repo: "https://github.com/PrgrmrHarshShukla/scraper",
-      desc: "This is a Tweet data scraper for tweets about tech job/freelance opportunities.",
-      details: [
-         "The original idea belongs to Harsh Agrawal.",
-         "I created it end-to-end in 2 days.",
-         "It uses headless browser from scraping library Puppeteer to scrap tweet content.",
-         "And, OpenAI API call to extract data from it and store in a PostgreSQL database.",
-         "Tech Stack: Next.js, TypeScript, TailwindCSS and PostgreSQL"
-      ]
-   },
    // {
-   //    name: "Dark.Mode",
-   //    live: "https://dark-mode-pdf.netlify.app",
+      //    name: "Dark.Mode",
+      //    live: "https://dark-mode-pdf.netlify.app",
    //    hasLive: true,
    //    hasPublicRepo: true,
    //    repo: "https://dark-mode-pdf.netlify.app",

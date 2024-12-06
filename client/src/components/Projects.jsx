@@ -1,10 +1,10 @@
+import { useState } from 'react';
 import data from './ProjectData';
 import ProjectTemplate from './ProjectTemplate';
 
 
 function Projects(props) {
-
-  // const navigate = useNavigate()
+  const [showAll, setShowAll] = useState(false);
 
   const handleClick = (e) => {
     e.preventDefault()
@@ -13,7 +13,7 @@ function Projects(props) {
   }
 
 
-  const projects = data.map((project, index) => {
+  const projects = data.slice(0, showAll ? data.length : 3).map((project, index) => {
     return(<>
       <ProjectTemplate 
         key={index}
@@ -45,8 +45,32 @@ function Projects(props) {
           <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
 
           {projects}          
+          
+          <div
+            className='w-full justify-center items-center flex flex-row'
+          >
+            {!showAll && (
+              <button
+                onClick={() => setShowAll(true)}
+                className="mt-4 px-4 py-2 border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] text-black" 
+              >
+                Show More
+              </button>
+            )}
+            {showAll && (
+              <button
+                onClick={() => setShowAll(false)}
+                className="mt-4 px-4 py-1 font-semibold border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] text-black" 
+              >
+                Show Less
+              </button>
+            )}
+          </div>
               
         </div>
+
+
+
     </div>
   )
 }

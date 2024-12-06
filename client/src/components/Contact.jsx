@@ -34,7 +34,7 @@ function Contact(props) {
          <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="text-black py-2 h-[20vh] px-2 w-[70vw] sm:w-[50vw] border-gray-800 border-2 outline-none rounded-[10px] sm:rounded-[5px] resize-none" placeholder = {`Your message here.....\n(It really works!)`} name = "message" id = "message"></textarea>
 
          <div className="flex justify-center items-center">
-          <input onClick={handle} type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-blue-300 " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 text-lg rounded-[5px] border-2 border-gray-800 font-semibold active:p-0`} />
+          <input onClick={handle} type="submit" value = "SEND" name="submit" id="send-button" className={`${props.isDark ? "bg-blue-300 " : " "} bg-sky-200 text-black hover:bg-sky-500 px-4 py-1 text-lg rounded-full border-2 border-gray-800 font-semibold active:p-0`} />
          </div>         
       </form> 
 
