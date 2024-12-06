@@ -2,13 +2,13 @@
 
 function Stack(props) {
   return (
-    <div className="min-h-[500px] sm:min-h-[370px] w-screen px-8 flex flex-col sm:flex-row pb-[100px] mt-8">
+    <div className="min-h-[500px] sm:min-h-[370px] w-screen px-8 flex flex-col sm:flex-row pb-[100px] mb-4 mt-20">
 
       <div className={`min-h-[100px] sm:h-auto sm:w-1/3 text-3xl flex flex-row justify-center items-start ${props.isDark ? "text-white " : "text-black "} font-semibold`}>
          <p>Tech Stack</p>
       </div>
 
-      <div className={`sm:w-2/3 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-4 text-[15px] sm:text-lg`}>
+      <div className={`sm:w-2/3 sm:max-w-[490px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-4 text-[15px] sm:text-lg`}>
         <p>
           Next.js, React.js, TypeScript, JavaScript, TailwindCSS, PostgreSQL, Prisma ORM, Node.js, Express.js, MongoDB & Atlas, Semantic HTML, CSS
         </p>  

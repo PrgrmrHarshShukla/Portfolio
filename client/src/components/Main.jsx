@@ -20,8 +20,8 @@ function Main() {
     <div className={`overflow-x-hidden ${isDark==true ? "bg-gray-800" : "bg-lime-50"}`}>
       <About isDark={isDark} toggle={toggle} />
       <Projects isDark={isDark} />
-      <Experience isDark={isDark} />
       <Stack isDark={isDark} />
+      <Experience isDark={isDark} />
       <Contact isDark={isDark} />
     </div>
   )

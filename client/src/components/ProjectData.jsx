@@ -9,7 +9,7 @@ export default [
       details: [
          "The original idea belongs to Aadil Verma.",
          "It currently has more than 100 visitors from all over the world.",
-         "I also implemented a table that mimicked the live database for the admin to add, update and delete any data.",
+         "I also implemented a database editor table that mimicked the live database for the admin to add, update and delete any data.",
          "Any changes made in the table are reflected in the live database as well as the UI.",
          "Stored thousands of records in the database and made it searchable with the help of Prisma's query language.",
          "Used Firebase to store the actual GIF files and their URLs in the database.",
