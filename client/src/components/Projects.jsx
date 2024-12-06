@@ -52,7 +52,7 @@ function Projects(props) {
             {!showAll && (
               <button
                 onClick={() => setShowAll(true)}
-                className="mt-4 px-4 py-2 border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] text-black" 
+                className="w-full mt-4 px-4 py-1 border-2 border-gray-800 bg-sky-200 active:bg-sky-500 cursor-pointer rounded-full text-[15px] sm:text-[17px] text-black" 
               >
                 Show More
               </button>
@@ -60,7 +60,7 @@ function Projects(props) {
             {showAll && (
               <button
                 onClick={() => setShowAll(false)}
-                className="mt-4 px-4 py-1 font-semibold border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] text-black" 
+                className="w-full mt-4 px-4 py-1 font-semibold border-2 border-gray-800 bg-sky-200 active:bg-sky-500 cursor-pointer rounded-full text-[15px] sm:text-[17px] text-black" 
               >
                 Show Less
               </button>

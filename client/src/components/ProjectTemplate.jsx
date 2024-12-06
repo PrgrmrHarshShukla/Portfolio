@@ -32,7 +32,7 @@ function ProjectTemplate(props) {
               <div className="flex flex-row gap-4 justify-center items-center text-black">
                 {hasLive && 
                   <a 
-                    className="border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
+                    className="border-2 border-gray-800 bg-sky-200 active:bg-sky-500 cursor-pointer rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
                     target="_blank" 
                     rel="noreferrer" 
                     href={live}
@@ -42,7 +42,7 @@ function ProjectTemplate(props) {
                 }
                 {hasPublicRepo && 
                   <a 
-                    className="border-2 border-gray-800 bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
+                    className="border-2 border-gray-800 bg-sky-200 active:bg-sky-500 cursor-pointer rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" 
                     target="_blank" 
                     rel="noreferrer" 
                     href={repo}
@@ -53,7 +53,7 @@ function ProjectTemplate(props) {
               </div>
             </div>
             <p className="text-[15px] sm:text-lg lg:max-w-[500px]">{desc}</p>
-            <div onClick={handleClick} className="cursor-pointer hover:text-purple-400">
+            <div onClick={handleClick} className="cursor-pointer active:text-purple-400">
               <span>
               <u>Detailed Description</u>
               </span>

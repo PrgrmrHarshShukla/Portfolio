@@ -158,6 +158,51 @@ export default [
          "../sc1.png"
       ]
    },
+   {
+      name: "Dynamo Notes",
+      live: "https://dynamo-notes.vercel.app",
+      hasLive: true,
+      hasPublicRepo: true,
+      repo: "https://github.com/PrgrmrHarshShukla/dynamoNotes",
+      desc: "This fun project is used to create dynamic notes that float around in an adjustable, controlled and dynamic way.",
+      details: [
+         "Resizable and draggable windows with a customizable workspace.",
+         "Intuitive deletion and management of notes/tasks.",
+         "Effortless management and scheduling as per your convenience.",
+         "Automatic time stamping for each note/task.",
+         "Local storage integration for persistent data across sessions without the need of even creating any accounts, enjoy!",
+         "Clean, intuitive interface for effortless note-taking and task management.",
+         "Persistence without the need for user accounts or cloud storage.",
+         "Lightweight and fast, perfect for quick thoughts and to-do(s).",
+         "All features have been carefully implemented; if you find a bug, feel free to reach out—I would highly appreciate that.",
+         "Built it in a few hours (<5) from concept to reality. (Does that count as a flex?)"
+      ],       
+      images: [
+         "../dn-1.png",
+         "../dn-2.png",
+         "../dn-3.png",
+      ]
+   },
+   // {
+   //    name: "Online Typewriter",
+   //    live: "https://learn-typing-8ydj.vercel.app",
+   //    hasLive: true,
+   //    hasPublicRepo: false,
+   //    repo: "https://learn-typing-8ydj.vercel.app",
+   //    desc: "This is a typing practice tool to help you improve your typing speed & accuracy in multiple languages.",
+   //    details: [
+   //       "I chose to store logs with specified schemas alongwith timestamps.",
+   //       "These logs are stored in documents of a NoSQL database (MongoDB Atlas) on cloud",
+   //       "These are segregated into planned collections(based on Dates) to improve query perormance based on timestamps.",
+   //       "In this way, I have tried to balance the trade-offs of efficient writing speed into the database and efficient queries from the frontend.",
+   //       "Then deploying it was another hurdle.",
+   //       "I used Netlify and Render for deploying the Frontend and Backend respectively.",
+   //       "Let me know your thoughts on improving it! 🤔"
+   //    ],
+   //    images: [
+
+   //    ]
+   // },
    // {
       //    name: "Dark.Mode",
       //    live: "https://dark-mode-pdf.netlify.app",
