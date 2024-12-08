@@ -8,7 +8,7 @@ function Stack(props) {
          <p>Tech Stack</p>
       </div>
 
-      <div className={`sm:w-2/3 sm:max-w-[490px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-4 text-[15px] sm:text-lg`}>
+      <div className={`sm:w-2/3 sm:max-w-[500px] ${props.isDark ? "text-white " : "text-black "} flex flex-col justify-start gap-8 sm:gap-4 text-[15px] sm:text-lg`}>
         <p>
           <strong className="underline">Tech Stack (Web)</strong>:  Next.js, React.js, Node.js, Express.js, Django
         </p>
@@ -25,7 +25,7 @@ function Stack(props) {
           <strong className="underline">Databases</strong>:  PostgreSQL, MongoDB
         </p>
         <p>
-          <strong className="underline">Miscellaneous</strong>:  Prisma, Vercel, Netlify, Leetcode, Codeforces, Firebase, Render, Git, GitHub, AWS, Docker, RESTful APIs, GraphQL, WebSockets, OAuth, JWT
+          <strong className="underline">Miscellaneous</strong>:  Prisma, Vercel, Netlify, Leetcode, Codeforces, Firebase, Render, Git, GitHub, AWS, Docker, RESTful APIs, WebSockets, OAuth, JWT
         </p>
                      
       </div>

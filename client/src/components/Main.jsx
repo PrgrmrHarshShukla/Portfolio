@@ -7,6 +7,7 @@ import Stack from './Stack'
 import Contact from './Contact'
 import { useState } from 'react'
 import Experience from './Experience'
+// import FloatingDots from './FloatingDots'
 
 function Main() {
   const [isDark, setIsDark] = useState(true)
@@ -18,6 +19,7 @@ function Main() {
   
   return (
     <div className={`overflow-x-hidden ${isDark==true ? "bg-gray-800" : "bg-lime-50"}`}>
+      {/* <FloatingDots /> */}
       <About isDark={isDark} toggle={toggle} />
       <Projects isDark={isDark} />
       <Stack isDark={isDark} />

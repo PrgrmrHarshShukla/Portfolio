@@ -120,6 +120,7 @@ export default [
          "../img-p-2.png",
          "../img-p-1.png",
          "../img-p-4.png",
+         "../img-p-5.png",
          "../img-p-3.png"
       ]
    },

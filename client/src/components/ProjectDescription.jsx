@@ -34,17 +34,17 @@ function ProjectDescription() {
               {hasPublicRepo && <a className="border-2 border-black bg-sky-200 hover:bg-sky-500 rounded-full text-[15px] sm:text-[17px] px-3 sm:px-4" target="_blank" rel="noreferrer" href={repo}>GitHub</a>}
             </div>
 
-            <div className="mt-[4vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px]">
+            <div className="mt-[4vh] text-left font-medium text-[18px] max-w-[300px] sm:max-w-[420px]">
                 {desc}
             </div>
 
             <div className="mt-[5vh] max-w-[300px] sm:max-w-[420px]">
-                <span className="font-semibold text-[19px]">
+                {/* <span className="font-semibold text-[19px]">
                     <u>
                         Things I tackled during the project:
                     </u>
-                </span>
-                <ul  className="mt-[2vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px] flex flex-col gap-[1vh]">
+                </span> */}
+                <ul  className="mt-[2vh] text-left text-[18px] max-w-[300px] sm:max-w-[420px] flex flex-col gap-[1vh] font-serif">
                     {detailsList}
                 </ul>
             </div>
