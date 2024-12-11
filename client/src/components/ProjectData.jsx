@@ -70,7 +70,7 @@ export default [
       name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
       hasLive: true,
-      hasPublicRepo: true,
+      hasPublicRepo: false,
       repo: "https://github.com/PrgrmrHarshShukla/Vchat",
       desc: "This is the most private, real-time chat app with offline support. It's UI uses React and TailwindCSS. Backend is a Web Socket server made using Socket.io. It currently has more than 10 active, logged in users.",
       details: [
