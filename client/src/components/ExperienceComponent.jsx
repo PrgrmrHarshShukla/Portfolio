@@ -24,13 +24,14 @@ function ExperienceComponent(props) {
 
               {companyURL ? 
               <a href={companyURL} target='_blank' rel='noreferrer'>
-                <strong className="text-2xl cursor-pointer">
-                  {companyName}
+                <strong className="text-2xl cursor-pointer flex justify-center items-baseline">
+                  <span>{companyName}</span>
+                  <i className='fas fa-external-link-alt font-medium ml-2 text-[12px]' />
                 </strong>
               </a>
               :
               <strong className="text-2xl">
-                {companyName}
+                <span>{companyName}</span>
               </strong>
               }
 

@@ -46,6 +46,35 @@ export default [
       ]
    },
    {
+      name: "Findd It",
+      live: "https://play.google.com/store/apps/details?id=com.kite_1.finditapp",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://dmcards.vercel.app",
+      desc: "Findd It App: Connecting students with educational professionals and institutions through detailed profiles.",
+      details: [
+         "Comprehensive Educational Collaboration Platform",
+         "Detailed Profiles for Teachers, Schools, and Coaching Institutes",
+         "Advanced Student Discovery and Connection System",
+         "Multi-Dimensional Profile Information Including:",
+         "- Professional Qualifications",
+         "- Institutional Facilities",
+         "- Academic Achievements",
+         "- Transparent Fee Structures",
+         "- Showcase of Student Achievers",
+         "- User-Generated Ratings and Reviews",
+         "Intuitive and User-Friendly Interface",
+         "Sleek, Modern Design with Engaging Animations",
+         "Robust Security and Privacy Protection Mechanisms",
+         "Easy Navigation and Profile Browsing",
+         "Personalized Educational Networking Capabilities"
+     ],
+      images: [
+         "../findd-1.png",
+         "../findd-2.png"
+      ]
+   },
+   {
       name: "DM Cards",
       live: "https://dmcards.vercel.app",
       hasLive: true,

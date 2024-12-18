@@ -11,10 +11,10 @@ function ProjectDescription() {
 
     const detailsList = details.map((item, index) => {
         return(
-            <li key={index} className="flex flex-row items-start justify-start gap-[10px]">
-                <div className="flex flex-row justify-start items-start -mt-[3px]">
+            <li key={index} className={`${item[0] == '-' ? "ml-5" : ''} flex flex-row items-start justify-start gap-[10px]`}>
+                {item[0] != '-' && <div className={`flex flex-row justify-start items-start -mt-[3px]`}>
                     <span className="text-2xl">•</span>
-                </div>
+                </div>}
                 {item}
             </li>
         )
@@ -53,7 +53,7 @@ function ProjectDescription() {
                 {images && 
                     images.map((img, index) => {
                         return(
-                            <img key={index} className="mt-[5vh] max-w-[300px] sm:max-w-[420px] rounded-[5px]" src={img} alt={name} />
+                            <img key={index} className="mt-[5vh] mx-2 max-w-[300px] sm:max-w-[420px] rounded-[5px]" src={img} alt={name} />
                         )
                     })
                 }
