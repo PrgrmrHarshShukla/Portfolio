@@ -13,10 +13,9 @@ function ProjectTemplate(props) {
 
 
   return (
-    <motion.div>
 
         <motion.div 
-          className="text-left p-6 flex flex-col justify-between gap-8 shadow-lg rounded-lg "
+          className="text-left p-6 flex flex-col justify-between gap-8 shadow-lg rounded-lg w-full"
           whileHover={{ scale: 1.1 }} 
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -52,16 +51,13 @@ function ProjectTemplate(props) {
                 }
               </div>
             </div>
-            <p className="text-[15px] sm:text-lg lg:max-w-[500px]">{desc}</p>
+            <p className="text-[15px] sm:text-lg max-w-full">{desc}</p>
             <div onClick={handleClick} className="cursor-pointer active:text-purple-400">
               <span>
               <u>Detailed Description</u>
               </span>
             </div>
         </motion.div>
-
-
-    </motion.div>
   )
 }
 

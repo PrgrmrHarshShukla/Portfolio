@@ -14,7 +14,8 @@ function Projects(props) {
 
 
   const projects = data.slice(0, showAll ? data.length : 3).map((project, index) => {
-    return(<>
+    return(
+    <>
       <ProjectTemplate 
         key={index}
         index={index}
@@ -28,7 +29,7 @@ function Projects(props) {
         desc={project.desc}
       />
       <hr className={`border-1 opacity-30 ${props.isDark ?  "border-white " : "border-black "} w-full`} />
-      </>
+    </>
     )
   })
 
