@@ -70,8 +70,9 @@ export default [
          "Personalized Educational Networking Capabilities"
      ],
       images: [
-         "../findd-1.png",
-         "../findd-2.png"
+         "../findd-1.jpg",
+         "../findd-2.jpg",
+         "../findd-2.jpg"
       ]
    },
    {
