@@ -3,7 +3,7 @@ export default [
         companyName: "PennyFlo",
         position: "Backend Intern",
         startDate: "November 2024",
-        endDate: "Present",
+        endDate: "January 2025",
         companyURL: "https://www.pennyflo.io",
         desc: "I have been working to create a special feature to help users (CFOs) access all their invoices, current balance and projected balance for all the connected bank accounts as well as any external bank statements they upload, in a single dashboard. \nIt also has a chart to get predicted balances for the next 1, 2 or 3 months. \nI have already created the responsive, pixel-perfect components and basic backend logic & integration and have been working on the backend of the feature to optimise it further.",
         techStack: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "xlsx parser", "Vercel Blob Storage", "Vercel KV Store"],
