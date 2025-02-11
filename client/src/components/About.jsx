@@ -7,7 +7,7 @@ function About(props) {
    const isDark = props.isDark;
 
    const handleClick = () => {
-      window.open("https://drive.google.com/file/d/1Us5h7KwzpRvEJcWyvHuZ-dkX7wz0xxsn/view", "_blank");
+      window.open("https://drive.google.com/file/d/16BAN08MS9NOfRulyz3JLC8C9sQ7aIrr9/view", "_blank");
    }
 
    return (
