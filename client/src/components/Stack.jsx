@@ -13,7 +13,7 @@ function Stack(props) {
           <strong className="underline">Tech Stack (Web)</strong>:  Next.js, React.js, Node.js, Express.js, Django
         </p>
         <p>
-          <strong className="underline">Tech Stack (Android)</strong>:  React Native and Expo
+          <strong className="underline">Tech Stack (Mobile - Android + iOS)</strong>:  React Native and Expo
         </p>
         <p>
           <strong className="underline">Styling</strong>:  TailwindCSS, ShadCN, ChakraUI

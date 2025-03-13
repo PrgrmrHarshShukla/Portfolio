@@ -1,11 +1,29 @@
 export default [
     {
+        companyName: "Jebra",
+        position: "Software Engineering Intern",
+        startDate: "January 2025",
+        endDate: "Present",
+        companyURL: "https://www.jebra.io",
+        desc: "Jebra is the first payroll platform for hourly & shift-based teams. \nI have been working to create the core mobile application for the workers related to Jebra to manage their shifts, invoices and other details. \nI have already developed the complete onboarding process and account/profile management features. \nNow I am working on the invoice management and other features. \nI am handling the development of the complete frontend features and the API integration. \nI am using React Native + Expo to create the mobile app for both Android and iOS platforms using a single codebase.",
+        techStack: [
+            "React Native",
+            "Expo",
+            "Android Studio",
+            "Redux",
+            "TypeScript",
+            "Node.js",
+            "Express",
+            "TailwindCSS",
+        ],
+    },
+    {
         companyName: "PennyFlo",
         position: "Backend Intern",
         startDate: "November 2024",
         endDate: "January 2025",
         companyURL: "https://www.pennyflo.io",
-        desc: "I have been working to create a special feature to help users (CFOs) access all their invoices, current balance and projected balance for all the connected bank accounts as well as any external bank statements they upload, in a single dashboard. \nIt also has a chart to get predicted balances for the next 1, 2 or 3 months. \nI have already created the responsive, pixel-perfect components and basic backend logic & integration and have been working on the backend of the feature to optimise it further.",
+        desc: "I created a special feature to help users (CFOs) access all their invoices, current balance and projected balance for all the connected bank accounts as well as any external bank statements they upload, in a single component on the main dashboard. \nIt also has a chart to get predicted balances for the next 1, 2 or 3 months. \nI created the responsive, pixel-perfect components, basic backend logic & integration and have also worked on optimising the features in the backend.",
         techStack: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "xlsx parser", "Vercel Blob Storage", "Vercel KV Store"],
     },
     {

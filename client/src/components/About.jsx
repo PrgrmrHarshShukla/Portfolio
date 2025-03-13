@@ -73,7 +73,7 @@ function About(props) {
                   isDark ? "text-white" : "text-black"
                } text-xl sm:text-2xl font-semibold font-serif`}
             >
-               Full Stack & Android Developer
+               Full Stack Web & Mobile App Developer
             </motion.div>
          </motion.div>
          </div>
