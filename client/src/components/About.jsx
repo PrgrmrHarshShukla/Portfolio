@@ -1,17 +1,20 @@
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import '@fortawesome/fontawesome-free/css/all.css'
+import { useState } from 'react';
 
 
 function About(props) {
    const isDark = props.isDark;
+   const [running, setRunning] = useState(true);
+   const [pop, setPop] = useState(false);
 
    const handleClick = () => {
       window.open("https://drive.google.com/file/d/16BAN08MS9NOfRulyz3JLC8C9sQ7aIrr9/view", "_blank");
    }
 
    return (
-      <div className={`flex flex-col ${props.isDark ? "border-white " : "border-black "} w-screen h-screen pl-4 border-b-2`}>
+      <div className={`flex flex-col ${props.isDark ? "border-white " : "border-black "} justify-between w-screen h-screen pl-4 border-b-2`}>
 
          <div className="h-1/6 flex flex-row justify-between items-center text-white px-4 md:px-8 w-full">
             <button className={`flex justify-center items-center border-2 ${props.isDark ? "" : "border-black "} p-4 rounded-full h-8 w-8`} onClick={props.toggle}>
@@ -33,7 +36,7 @@ function About(props) {
             </motion.button>
          </div>
          
-         <div className="h-3/5 flex flex-col justify-center items-start text-left lg:items-center lg:text-center">
+         <div className="h-3/5 flex flex-col justify-center items-start text-left lg:items-center lg:text-center -mt-4">
          <motion.div
             whileHover={{ scale: 1.15 }}
             initial={{ opacity: 0, scale: 0.5 }}
@@ -79,16 +82,48 @@ function About(props) {
          </div>
 
          
-         <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
-            className={`h-1/3 flex flex-col justify-center sm:mb-0 mb-2 items-start text-left ${props.isDark ?  "text-white " : "text-black "} text-[15px] sm:text-xl lg:items-center lg:text-left 
-            }`}
-         >
-            <p>I am pursuing my CSE undergrad degree,</p>
-            <p>with a passion for building things</p>
-            <p>that have real world utility.</p>
-         </motion.div>
+         <div className="relative w-full h-16 overflow-hidden">
+            <motion.div
+               animate={{ 
+                     x: ["-100%", "90vw"] 
+               }}
+               transition={{
+                     repeat: Infinity,
+                     repeatType: "reverse",
+                     duration: 4,
+                     ease: "linear",
+               }}
+               className="absolute w-20 h-20"
+            >
+               {running ?
+                  <div
+                     onClick={() => {
+                        setRunning(false);
+                        setPop(true);
+                        setTimeout(() => {
+                           setPop(false);
+                        }, 500);
+                     }}
+                  >
+                     <img
+                        src="/gifs/ball.png"
+                        alt="Cartoon Character"
+                        className="w-full h-full object-contain"
+                     />
+                  </div>
+                  : 
+                     pop ?
+                        <div>
+                           <img
+                              src="/gifs/burst.png"
+                              alt="Cartoon Character"
+                              className="w-10 h-10 object-contain"
+                           />
+                        </div>
+                     : null
+               }
+            </motion.div>
+         </div>
 
 
       </div>
