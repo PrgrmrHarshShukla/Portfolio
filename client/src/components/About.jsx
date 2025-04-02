@@ -102,7 +102,7 @@ function About(props) {
                         setPop(true);
                         setTimeout(() => {
                            setPop(false);
-                        }, 500);
+                        }, 1000);
                      }}
                   >
                      <img
@@ -112,15 +112,17 @@ function About(props) {
                      />
                   </div>
                   : 
-                     pop ?
-                        <div>
-                           <img
-                              src="/gifs/burst.png"
-                              alt="Cartoon Character"
-                              className="w-10 h-10 object-contain"
-                           />
-                        </div>
-                     : null
+                  null
+               }
+               {pop ?
+                  <div>
+                     <img
+                        src="/gifs/burst.png"
+                        alt="Cartoon Character"
+                        className="w-10 h-10 object-contain"
+                     />
+                  </div>
+               : null
                }
             </motion.div>
          </div>
