@@ -13,7 +13,7 @@ export default [
          "Any changes made in the table are reflected in the live database as well as the UI.",
          "Stored thousands of records in the database and made it searchable with the help of Prisma's query language.",
          "Used Firebase to store the actual GIF files and their URLs in the database.",
-         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
          "Made it responsive across all devices."
       ],
       images: [
@@ -76,6 +76,28 @@ export default [
       ]
    },
    {
+      name: "Job Tree",
+      live: "https://job-tree.vercel.app",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://dmcards.vercel.app",
+      desc: "A super simplified job board with one click apply for candidates and the simplest possible way for companies to view applications and proceed with them.",
+      details: [
+         "All the features are implemented to save time for both candidates and companies.",
+         "Solves a real world problem that me and my friends faced while applying for jobs and I see a lot of companies facing the same problem.",
+         "I made it within a span of 4 days, from first line of code to deployment.",
+         "I used only the built in Copilot features of VSCode to write the code, no vibe coding, to see how fast I can finish it.",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
+         "Made it responsive across all devices."
+      ],
+      images: [
+         "../tree_1.png",
+         "../tree_2.png",
+         "../tree_3.png",
+         "../tree_4.png"
+      ]
+   },
+   {
       name: "DM Cards",
       live: "https://dmcards.vercel.app",
       hasLive: true,
@@ -88,7 +110,7 @@ export default [
          "The idea is to send a card with objective questions in DMs, make it easy & quick for the receiver to reply.",
          "I made it within a week, from idea to deployment.",
          "Controlling the access of the cards was the exciting part, would love to discuss it with you, if you want.",
-         "Tech Stack: Next.js, TailwindCSS, Vercel, Postgres, Prisma",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
          "Made it responsive across all devices."
       ],
       images: [
