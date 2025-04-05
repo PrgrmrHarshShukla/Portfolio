@@ -32,6 +32,8 @@ export default [
       details: [
          "All the features are implemented to save time for both candidates and companies.",
          "Solves a real world problem that me and my friends faced while applying for jobs and I see a lot of companies facing the same problem.",
+         `Has a "super filtered" feature where each candidate is only shown the job posts that matches their skill set.`,
+         `This prevents spam applications and makes it easier for the companies to find the best fit and ultimately helps the candidate to only apply to promising roles.`,
          "I made it within a span of 4 days, from first line of code to deployment.",
          "I used only the built in Copilot features of VSCode to write the code, no vibe coding, to see how fast I can finish it.",
          "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
