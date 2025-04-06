@@ -23,6 +23,30 @@ export default [
       ]
    },
    {
+      name: "Job Tree",
+      live: "https://job-tree.vercel.app",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://dmcards.vercel.app",
+      desc: "A super simplified job board with one click apply for candidates and the simplest possible way for companies to view applications and proceed with them.",
+      details: [
+         "All the features are implemented to save time for both candidates and companies.",
+         "Solves a real world problem that me and my friends faced while applying for jobs and I see a lot of companies facing the same problem.",
+         `Has a "super filtered" feature where each candidate is only shown the job posts that matches their skill set.`,
+         `This prevents spam applications and makes it easier for the companies to find the best fit and ultimately helps the candidate to only apply to promising roles.`,
+         "I made it within a span of 4 days, from first line of code to deployment.",
+         "I used only the built in Copilot features of VSCode to write the code, no vibe coding, to see how fast I can finish it.",
+         "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
+         "Made it responsive across all devices."
+      ],
+      images: [
+         "../tree_1.png",
+         "../tree_2.png",
+         "../tree_3.png",
+         "../tree_4.png"
+      ]
+   },
+   {
       name: "YT Robin",
       live: "https://www.ytrobin.com",
       hasLive: true,
@@ -73,28 +97,6 @@ export default [
          "../findd-1.jpg",
          "../findd-2.jpg",
          "../findd-2.jpg"
-      ]
-   },
-   {
-      name: "Job Tree",
-      live: "https://job-tree.vercel.app",
-      hasLive: true,
-      hasPublicRepo: false,
-      repo: "https://dmcards.vercel.app",
-      desc: "A super simplified job board with one click apply for candidates and the simplest possible way for companies to view applications and proceed with them.",
-      details: [
-         "All the features are implemented to save time for both candidates and companies.",
-         "Solves a real world problem that me and my friends faced while applying for jobs and I see a lot of companies facing the same problem.",
-         "I made it within a span of 4 days, from first line of code to deployment.",
-         "I used only the built in Copilot features of VSCode to write the code, no vibe coding, to see how fast I can finish it.",
-         "Tech Stack: Next.js, TailwindCSS, Vercel, PostgreSQL, Prisma",
-         "Made it responsive across all devices."
-      ],
-      images: [
-         "../tree_1.png",
-         "../tree_2.png",
-         "../tree_3.png",
-         "../tree_4.png"
       ]
    },
    {
