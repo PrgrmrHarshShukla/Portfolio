@@ -131,6 +131,7 @@ export default [
          "Building this video chat application presented multiple architectural challenges. I engineered a novel combined signaling server approach to overcome Render's free-tier limitations.",
          "Designed a combined signaling server architecture merging Express + Socket.IO + PeerJS into a single process that runs on a single port using a single server and command.",
          "Solved duplicate stream rendering by implementing connection deduplication logic (PeerJS ID comparison)",
+         "Used ngrok to tunnel the local development server, enabling testing across different devices and network environments by exposing the localhost port via a secure public URL.",
          "Has options to add people to a call by sharing the URL",
          "Can easily leave and join/rejoin calls",
          "Highly responsive UI with a modern design",
