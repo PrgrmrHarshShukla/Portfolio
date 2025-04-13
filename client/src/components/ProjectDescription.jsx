@@ -53,7 +53,7 @@ function ProjectDescription() {
                 {images && 
                     images.map((img, index) => {
                         return(
-                            <img key={index} className="mt-[5vh] mx-2 max-w-[300px] sm:max-w-[420px] rounded-[5px]" src={img} alt={name} />
+                            <img key={index} className="mt-[5vh] mx-2 max-w-[300px] sm:max-w-[420px] rounded-[5px] border border-black" src={img} alt={name} />
                         )
                     })
                 }

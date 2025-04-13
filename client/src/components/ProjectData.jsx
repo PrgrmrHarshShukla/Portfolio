@@ -121,6 +121,29 @@ export default [
       ]
    },
    {
+      name: "Video Call (WebChat)",
+      live: "https://webchat-fa0u.onrender.com",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://github.com/PrgrmrHarshShukla/WebChat",
+      desc: "It is a WebRTC-based video conferencing app enabling peer-to-peer browser-based calls with low latency.",
+      details: [
+         "Building this WebRTC video chat application presented multiple architectural challenges. I engineered a novel combined signaling server approach to overcome Render.com's free-tier limitations.",
+         "Designed a combined signaling server architecture merging Express + Socket.IO + PeerJS into a single process that runs on a single port using a single server and command.",
+         "Solved duplicate stream rendering by implementing connection deduplication logic (PeerJS ID comparison)",
+         "Has options to add people to a call by sharing the URL",
+         "Can easily leave and join/rejoin calls",
+         "Highly responsive UI with a modern design",
+         "Optimized for low latency and high performance",
+         "Tech Stack: WebRTC, PeerJS, Socket.IO, Express, EJS, NodeJS",
+      ],
+      images: [
+         "../meet1.png",
+         "../meet2.png",
+         "../meet3.png",
+      ]
+   },
+   {
       name: "FiredChat",
       live: "https://fired-chat.netlify.app/",
       hasLive: true,
