@@ -13,7 +13,7 @@ function Projects(props) {
   }
 
 
-  const projects = data.slice(0, showAll ? data.length : 3).map((project, index) => {
+  const projects = data.slice(0, showAll ? data.length : 4).map((project, index) => {
     return(
     <>
       <ProjectTemplate 

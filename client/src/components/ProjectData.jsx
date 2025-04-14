@@ -70,6 +70,30 @@ export default [
       ]
    },
    {
+      name: "Video Call (WebChat)",
+      live: "https://webchat-fa0u.onrender.com",
+      hasLive: true,
+      hasPublicRepo: false,
+      repo: "https://github.com/PrgrmrHarshShukla/WebChat",
+      desc: "It is a PeerJS-based video conferencing app enabling peer-to-peer browser-based calls with low latency.",
+      details: [
+         "Building this video chat application presented multiple architectural challenges. I engineered a novel combined signaling server approach to overcome Render's free-tier limitations.",
+         "Designed a combined signaling server architecture merging Express + Socket.IO + PeerJS into a single process that runs on a single port using a single server and command.",
+         "Solved duplicate stream rendering by implementing connection deduplication logic (PeerJS ID comparison)",
+         "Used ngrok to tunnel the local development server, enabling testing across different devices and network environments by exposing the localhost port via a secure public URL.",
+         "Has options to add people to a call by sharing the URL",
+         "Can easily leave and join/rejoin calls",
+         "Highly responsive UI with a modern design",
+         "Optimized for low latency and high performance",
+         "Tech Stack: PeerJS, Socket.IO, Express, EJS, NodeJS",
+      ],
+      images: [
+         "../meet1.png",
+         "../meet2.png",
+         "../meet3.png",
+      ]
+   },
+   {
       name: "Findd It",
       live: "https://play.google.com/store/apps/details?id=com.kite_1.finditapp",
       hasLive: true,
@@ -118,30 +142,6 @@ export default [
       images: [
          "../dmcards1.png",
          "../dmcards2.png"
-      ]
-   },
-   {
-      name: "Video Call (WebChat)",
-      live: "https://webchat-fa0u.onrender.com",
-      hasLive: true,
-      hasPublicRepo: false,
-      repo: "https://github.com/PrgrmrHarshShukla/WebChat",
-      desc: "It is a PeerJS-based video conferencing app enabling peer-to-peer browser-based calls with low latency.",
-      details: [
-         "Building this video chat application presented multiple architectural challenges. I engineered a novel combined signaling server approach to overcome Render's free-tier limitations.",
-         "Designed a combined signaling server architecture merging Express + Socket.IO + PeerJS into a single process that runs on a single port using a single server and command.",
-         "Solved duplicate stream rendering by implementing connection deduplication logic (PeerJS ID comparison)",
-         "Used ngrok to tunnel the local development server, enabling testing across different devices and network environments by exposing the localhost port via a secure public URL.",
-         "Has options to add people to a call by sharing the URL",
-         "Can easily leave and join/rejoin calls",
-         "Highly responsive UI with a modern design",
-         "Optimized for low latency and high performance",
-         "Tech Stack: PeerJS, Socket.IO, Express, EJS, NodeJS",
-      ],
-      images: [
-         "../meet1.png",
-         "../meet2.png",
-         "../meet3.png",
       ]
    },
    {
