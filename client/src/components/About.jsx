@@ -10,7 +10,7 @@ function About(props) {
    const [pop, setPop] = useState(false);
 
    const handleClick = () => {
-      window.open("https://drive.google.com/file/d/16BAN08MS9NOfRulyz3JLC8C9sQ7aIrr9/view", "_blank");
+      window.open("https://drive.google.com/file/d/1l0eet1yCUbnPhi0YaNL8iW2x2neKv3pV/view", "_blank");
    }
 
    return (
